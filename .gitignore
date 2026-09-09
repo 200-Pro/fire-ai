@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Secrets
+.env
+*.key
+
+# Local data, models, and experiment outputs
+data/
+datasets/
+weights/
+runs/
+mlruns/
+*.pt
+*.onnx
+*.zip
+bus.jpg
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

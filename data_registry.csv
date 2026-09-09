@@ -1,2 +1,2 @@
 source_name,url,access_date,license_or_terms,allowed_use,redistribution,personal_info,storage_path,notes
-
+D-Fire Dataset,https://github.com/gaia-solutions-on-demand/DFireDataset,2026-09-09,CC0-1.0,Research/training/evaluation allowed,Allowed under CC0,Review images containing people before external publication,G:\내 드라이브\2026 3학년 2학기 진로탐색\Data\DFire,"D-Fire.zip verified: 21527 images and 21527 labels; class 0=smoke; class 1=fire; official split lists stored separately"

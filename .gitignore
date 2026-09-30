@@ -23,6 +23,7 @@ bus.jpg
 
 # Editor and operating system files
 .vscode/
+.ipynb_checkpoints/
 .idea/
 .DS_Store
 Thumbs.db

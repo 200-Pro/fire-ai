@@ -38,3 +38,26 @@ YOLO26n 전이학습으로 영상에서 `fire`와 `smoke`를 탐지하고, 반�
 
 팀원 최초 설치는 [TEAM_SETUP.md](docs/TEAM_SETUP.md)를 따릅니다.
 
+## 현재 진행상황
+
+- D-Fire 이미지·라벨 21,527쌍 검증 완료
+- 공식 클래스 `0=smoke`, `1=fire` 확인
+- Colab GPU에서 YOLO26n 3epoch 시험 학습 완료
+- 시험 결과 `best.pt`와 지표를 Google Drive에 보관
+- 다음 단계는 공식 fold 기반 데이터 준비 재현과 80epoch 본 학습
+
+자세한 상태는 [PROJECT_STATUS.md](docs/PROJECT_STATUS.md)를 확인합니다.
+
+## Colab 데이터 준비
+
+`notebooks/dfire_colab_pipeline.ipynb`를 Colab에서 열어 순서대로 실행합니다. 핵심 데이터 준비 명령은 다음과 같습니다.
+
+```bash
+python scripts/prepare_dfire.py \
+  --dataset-zip "D-Fire.zip" \
+  --split-zip "d-fire 텍스트 분할.zip" \
+  --output "/content/fire-ai-data" \
+  --fold 1
+```
+
+원본 ZIP과 학습 결과는 Google Drive에 보관하고, 압축 해제된 학습 데이터는 Colab의 `/content`에 둡니다.

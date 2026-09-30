@@ -21,6 +21,12 @@ C:\fire-ai-local\.venv\Scripts\python.exe
 
 선택 순서는 `Ctrl+Shift+P` → `Python Select Interpreter` → `Enter interpreter path`입니다.
 
+환경과 공유 파일을 한 번에 점검하려면 프로젝트 폴더에서 다음을 실행합니다.
+
+```powershell
+powershell -ExecutionPolicy Bypass -File ".\scripts\audit_system.ps1"
+```
+
 ## 한 명만 해야 하는 작업
 
 - 공유 폴더와 Git 저장소 최초 생성
@@ -43,4 +49,3 @@ Colab 학습 모델명은 `yolo26n.pt`를 사용합니다. 학습 완료 후 생
 - D-Fire 클래스 번호는 실제 배포본의 설정과 라벨을 확인한 뒤 확정합니다.
 - 현재 공통 설정은 `0=smoke`, `1=fire`이지만 확인 전 임의로 라벨 번호를 변환하지 않습니다.
 - 공유 Drive 폴더에서 대용량 학습이나 반복 추론을 실행하지 않습니다.
-

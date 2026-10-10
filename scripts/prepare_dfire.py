@@ -9,7 +9,9 @@ from __future__ import annotations
 
 import argparse
 import csv
+import hashlib
 import json
+import math
 import shutil
 import sys
 import zipfile
@@ -19,6 +21,45 @@ from pathlib import Path
 
 IMAGE_SUFFIXES = {".jpg", ".jpeg", ".png"}
 CLASS_NAMES = {0: "smoke", 1: "fire"}
+LABEL_POLICY = "v2_clip_to_image_drop_degenerate_deduplicate"
+
+
+def normalize_label_text(text, source):
+    """Deterministic geometry repair, identical for train/val/test; no relabeling."""
+    clean, changes, seen = [], [], set()
+    for number, line in enumerate(text.splitlines(), 1):
+        if not line.strip():
+            continue
+        parts = line.split()
+        if len(parts) != 5 or parts[0] not in ("0", "1"):
+            raise ValueError(f"{source}:{number}: invalid class/columns")
+        x, y, w, h = map(float, parts[1:])
+        if not all(math.isfinite(v) for v in (x, y, w, h)) or w < 0 or h < 0:
+            raise ValueError(f"{source}:{number}: non-finite or negative box")
+        reason, output = None, line.strip()
+        if w == 0 or h == 0:
+            reason, output = "drop_zero_area", ""
+        else:
+            x1, y1, x2, y2 = x-w/2, y-h/2, x+w/2, y+h/2
+            clipped = (max(0.0, x1), max(0.0, y1), min(1.0, x2), min(1.0, y2))
+            a, b, c, d = clipped
+            if c <= a or d <= b:
+                reason, output = "drop_outside_image", ""
+            elif max(abs(u-v) for u, v in zip((x1,y1,x2,y2), clipped)) > 1e-12:
+                output = f"{parts[0]} {(a+c)/2:.12g} {(b+d)/2:.12g} {c-a:.12g} {d-b:.12g}"
+                reason = "clip_to_image"
+        if output:
+            key = tuple(map(float, output.split()))
+            if key in seen:
+                reason, output = "drop_duplicate", ""
+            else:
+                seen.add(key)
+        if reason:
+            changes.append({"source": str(source), "line": number, "action": reason,
+                            "original": line, "replacement": output})
+        if output:
+            clean.append(output)
+    return "\n".join(clean) + ("\n" if clean else ""), changes
 
 
 def parse_args() -> argparse.Namespace:
@@ -27,6 +68,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--split-zip", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--fold", type=int, choices=range(1, 6), default=1)
+    parser.add_argument("--verify-images", action="store_true")
     return parser.parse_args()
 
 
@@ -42,7 +84,12 @@ def safe_extract(archive: zipfile.ZipFile, destination: Path) -> None:
 def read_split(archive: zipfile.ZipFile, name: str) -> list[str]:
     with archive.open(name) as handle:
         text = handle.read().decode("utf-8-sig")
-    return [line.strip() for line in text.splitlines() if line.strip()]
+    names = [line.strip() for line in text.splitlines() if line.strip()]
+    if len(names) != len(set(names)):
+        raise ValueError(f"Duplicate names in split: {name}")
+    if any(Path(n).name != n or "\\" in n for n in names):
+        raise ValueError(f"Expected filenames only: {name}")
+    return names
 
 
 def image_names(directory: Path) -> set[str]:
@@ -109,18 +156,32 @@ def prepare(args: argparse.Namespace) -> dict[str, object]:
         if not archive_path.is_file():
             raise FileNotFoundError(archive_path)
 
+    def digest(path):
+        h = hashlib.sha256()
+        with path.open("rb") as handle:
+            for block in iter(lambda: handle.read(1024 * 1024), b""):
+                h.update(block)
+        return h.hexdigest()
+
+    sources = {"dataset": digest(dataset_zip), "splits": digest(split_zip)}
     marker = output / "dataset_summary.json"
+    reused = False
     if output.exists() and any(output.iterdir()):
         if marker.is_file():
-            print(f"Already prepared: {output}")
-            return json.loads(marker.read_text(encoding="utf-8"))
-        raise FileExistsError(
-            f"Output is not empty: {output}. Choose a new /content directory."
-        )
+            saved = json.loads(marker.read_text(encoding="utf-8"))
+            if (saved.get("source_sha256") != sources or saved.get("fold") != args.fold
+                    or saved.get("label_policy") != LABEL_POLICY):
+                raise ValueError("Existing data have different/unknown hashes or fold; use a new output directory")
+            reused = True
+        else:
+            raise FileExistsError(
+                f"Output is not empty: {output}. Choose a new /content directory."
+            )
 
     output.mkdir(parents=True, exist_ok=True)
-    with zipfile.ZipFile(dataset_zip) as archive:
-        safe_extract(archive, output)
+    if not reused:
+        with zipfile.ZipFile(dataset_zip) as archive:
+            safe_extract(archive, output)
 
     required = [
         output / "train" / "images",
@@ -144,24 +205,51 @@ def prepare(args: argparse.Namespace) -> dict[str, object]:
     official_val_set = set(official_val)
     official_test_set = set(official_test)
 
-    if official_train_set & official_val_set:
-        raise ValueError("Official train and validation lists overlap")
+    if (official_train_set & official_val_set or official_train_set & official_test_set
+            or official_val_set & official_test_set):
+        raise ValueError("Official train/validation/test lists overlap")
     require_equal(
         "official train+validation",
         train_names,
-        official_train_set | official_val_set,
+        official_train_set if reused else official_train_set | official_val_set,
     )
     require_equal("official test", test_names, official_test_set)
 
-    (output / "val" / "images").mkdir(parents=True)
-    (output / "val" / "labels").mkdir(parents=True)
-    for image_name in official_val:
-        source_image = output / "train" / "images" / image_name
-        source_label = output / "train" / "labels" / f"{Path(image_name).stem}.txt"
-        if not source_image.is_file() or not source_label.is_file():
-            raise FileNotFoundError(f"Missing validation pair for {image_name}")
-        shutil.move(source_image, output / "val" / "images" / image_name)
-        shutil.move(source_label, output / "val" / "labels" / source_label.name)
+    if reused:
+        require_equal("official validation", image_names(output / "val" / "images"), official_val_set)
+    else:
+        (output / "val" / "images").mkdir(parents=True)
+        (output / "val" / "labels").mkdir(parents=True)
+        for image_name in official_val:
+            source_image = output / "train" / "images" / image_name
+            source_label = output / "train" / "labels" / f"{Path(image_name).stem}.txt"
+            if not source_image.is_file() or not source_label.is_file():
+                raise FileNotFoundError(f"Missing validation pair for {image_name}")
+            shutil.move(source_image, output / "val" / "images" / image_name)
+            shutil.move(source_label, output / "val" / "labels" / source_label.name)
+
+    corrections_path = output / "label_corrections.json"
+    corrections = json.loads(corrections_path.read_text(encoding="utf-8")) if reused else []
+    if reused:
+        if digest(corrections_path) != saved.get("corrections_sha256"):
+            raise ValueError("Saved correction log changed; prepare a fresh dataset")
+        old_manifest = output / "dataset_manifest_v001.csv"
+        if digest(old_manifest) != saved.get("manifest_sha256"):
+            raise ValueError("Saved manifest changed; prepare a fresh dataset")
+        with old_manifest.open(encoding="utf-8-sig", newline="") as handle:
+            for row in csv.DictReader(handle):
+                label = (output / row["label_path"]).resolve()
+                if not label.is_relative_to(output) or digest(label) != row["label_sha256"]:
+                    raise ValueError("Prepared label changed; prepare a fresh dataset")
+    if not reused:
+        for split in ("train", "val", "test"):
+            for label in sorted((output / split / "labels").glob("*.txt")):
+                text = label.read_text(encoding="utf-8-sig")
+                cleaned, changes = normalize_label_text(text, label.relative_to(output).as_posix())
+                if changes:
+                    label.write_text(cleaned, encoding="utf-8", newline="\n")
+                    corrections.extend(changes)
+        corrections_path.write_text(json.dumps(corrections, ensure_ascii=False, indent=2), encoding="utf-8", newline="\n")
 
     manifest_path = output / "dataset_manifest_v001.csv"
     split_path = output / "split_v001.csv"
@@ -174,6 +262,10 @@ def prepare(args: argparse.Namespace) -> dict[str, object]:
         negatives = 0
         boxes = 0
         for image in images:
+            if getattr(args, "verify_images", False):
+                from PIL import Image
+                with Image.open(image) as opened:
+                    opened.load()
             label = output / split / "labels" / f"{image.stem}.txt"
             box_count, classes = audit_label(label)
             boxes += box_count
@@ -191,6 +283,7 @@ def prepare(args: argparse.Namespace) -> dict[str, object]:
                     "box_count": box_count,
                     "classes": "|".join(CLASS_NAMES[item] for item in sorted(classes)),
                     "is_negative": box_count == 0,
+                    "label_sha256": digest(label),
                     "split_source": f"official_dfire_fold_{args.fold}",
                 }
             )
@@ -227,6 +320,12 @@ def prepare(args: argparse.Namespace) -> dict[str, object]:
     summary: dict[str, object] = {
         "dataset": "D-Fire",
         "fold": args.fold,
+        "source_sha256": sources,
+        "images_verified": bool(getattr(args, "verify_images", False)),
+        "label_policy": LABEL_POLICY,
+        "label_corrections": len(corrections),
+        "manifest_sha256": digest(manifest_path),
+        "corrections_sha256": digest(corrections_path),
         "classes": {str(key): value for key, value in CLASS_NAMES.items()},
         "class_box_counts": {str(key): class_boxes[key] for key in CLASS_NAMES},
         "splits": split_summary,

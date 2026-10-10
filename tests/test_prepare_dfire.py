@@ -76,6 +76,16 @@ class PrepareDFireTest(unittest.TestCase):
             self.assertEqual(summary["splits"]["test"]["images"], 1)
             self.assertEqual(summary["class_box_counts"], {"0": 4, "1": 1})
             self.assertTrue((output / "fire_v001_colab.yaml").is_file())
+            self.assertTrue((output / "label_corrections.json").is_file())
+            # Repeat revalidates rather than trusting a stale completion marker.
+            subprocess.run(completed.args, check=True, capture_output=True)
+            changed_fold = list(completed.args)
+            changed_fold[-1] = "2"
+            bad = subprocess.run(changed_fold, capture_output=True, text=True)
+            self.assertNotEqual(bad.returncode, 0)
+            (output / 'train' / 'labels' / 'AoF00001.txt').write_text('0 0.5 0.5 0 0', encoding='utf-8')
+            bad = subprocess.run(completed.args, capture_output=True, text=True)
+            self.assertNotEqual(bad.returncode, 0)
 
 
 if __name__ == "__main__":

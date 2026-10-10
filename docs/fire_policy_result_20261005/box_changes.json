@@ -1,0 +1,762 @@
+{
+  "recovered_boxes": [
+    {
+      "file_name": "AoF04431.jpg",
+      "gt_index": 2
+    },
+    {
+      "file_name": "AoF04983.jpg",
+      "gt_index": 2
+    },
+    {
+      "file_name": "WEB03713.jpg",
+      "gt_index": 0
+    },
+    {
+      "file_name": "WEB03745.jpg",
+      "gt_index": 1
+    },
+    {
+      "file_name": "WEB03951.jpg",
+      "gt_index": 12
+    },
+    {
+      "file_name": "WEB04400.jpg",
+      "gt_index": 0
+    },
+    {
+      "file_name": "WEB04714.jpg",
+      "gt_index": 1
+    },
+    {
+      "file_name": "WEB04795.jpg",
+      "gt_index": 1
+    },
+    {
+      "file_name": "WEB04881.jpg",
+      "gt_index": 3
+    },
+    {
+      "file_name": "WEB05371.jpg",
+      "gt_index": 2
+    },
+    {
+      "file_name": "WEB05494.jpg",
+      "gt_index": 3
+    },
+    {
+      "file_name": "WEB05637.jpg",
+      "gt_index": 2
+    },
+    {
+      "file_name": "WEB05830.jpg",
+      "gt_index": 1
+    },
+    {
+      "file_name": "WEB05957.jpg",
+      "gt_index": 5
+    },
+    {
+      "file_name": "WEB05958.jpg",
+      "gt_index": 5
+    },
+    {
+      "file_name": "WEB05984.jpg",
+      "gt_index": 2
+    },
+    {
+      "file_name": "WEB05990.jpg",
+      "gt_index": 1
+    },
+    {
+      "file_name": "WEB06377.jpg",
+      "gt_index": 1
+    },
+    {
+      "file_name": "WEB06377.jpg",
+      "gt_index": 11
+    },
+    {
+      "file_name": "WEB06689.jpg",
+      "gt_index": 1
+    },
+    {
+      "file_name": "WEB06711.jpg",
+      "gt_index": 2
+    },
+    {
+      "file_name": "WEB06742.jpg",
+      "gt_index": 0
+    },
+    {
+      "file_name": "WEB06900.jpg",
+      "gt_index": 7
+    },
+    {
+      "file_name": "WEB07134.jpg",
+      "gt_index": 3
+    },
+    {
+      "file_name": "WEB07185.jpg",
+      "gt_index": 1
+    },
+    {
+      "file_name": "WEB07185.jpg",
+      "gt_index": 2
+    },
+    {
+      "file_name": "WEB07593.jpg",
+      "gt_index": 0
+    },
+    {
+      "file_name": "WEB07733.jpg",
+      "gt_index": 0
+    }
+  ],
+  "newly_missed_boxes": [
+    {
+      "file_name": "AoF04067.jpg",
+      "gt_index": 2
+    },
+    {
+      "file_name": "AoF04440.jpg",
+      "gt_index": 0
+    },
+    {
+      "file_name": "AoF04499.jpg",
+      "gt_index": 1
+    },
+    {
+      "file_name": "AoF04680.jpg",
+      "gt_index": 0
+    },
+    {
+      "file_name": "PublicDataset00083.jpg",
+      "gt_index": 0
+    },
+    {
+      "file_name": "PublicDataset00649.jpg",
+      "gt_index": 1
+    },
+    {
+      "file_name": "WEB03907.jpg",
+      "gt_index": 0
+    },
+    {
+      "file_name": "WEB04284.jpg",
+      "gt_index": 1
+    },
+    {
+      "file_name": "WEB04334.jpg",
+      "gt_index": 2
+    },
+    {
+      "file_name": "WEB04361.jpg",
+      "gt_index": 0
+    },
+    {
+      "file_name": "WEB04373.jpg",
+      "gt_index": 1
+    },
+    {
+      "file_name": "WEB04376.jpg",
+      "gt_index": 3
+    },
+    {
+      "file_name": "WEB04455.jpg",
+      "gt_index": 3
+    },
+    {
+      "file_name": "WEB04690.jpg",
+      "gt_index": 0
+    },
+    {
+      "file_name": "WEB04876.jpg",
+      "gt_index": 1
+    },
+    {
+      "file_name": "WEB04939.jpg",
+      "gt_index": 0
+    },
+    {
+      "file_name": "WEB04966.jpg",
+      "gt_index": 6
+    },
+    {
+      "file_name": "WEB04972.jpg",
+      "gt_index": 0
+    },
+    {
+      "file_name": "WEB05333.jpg",
+      "gt_index": 2
+    },
+    {
+      "file_name": "WEB05512.jpg",
+      "gt_index": 3
+    },
+    {
+      "file_name": "WEB06406.jpg",
+      "gt_index": 1
+    },
+    {
+      "file_name": "WEB06763.jpg",
+      "gt_index": 0
+    },
+    {
+      "file_name": "WEB07418.jpg",
+      "gt_index": 1
+    },
+    {
+      "file_name": "WEB07593.jpg",
+      "gt_index": 1
+    },
+    {
+      "file_name": "WEB07733.jpg",
+      "gt_index": 3
+    },
+    {
+      "file_name": "WEB08453.jpg",
+      "gt_index": 0
+    },
+    {
+      "file_name": "WEB08962.jpg",
+      "gt_index": 0
+    }
+  ],
+  "image_changes": [
+    {
+      "file_name": "AoF04067.jpg",
+      "before_missed": [],
+      "after_missed": [
+        2
+      ]
+    },
+    {
+      "file_name": "AoF04431.jpg",
+      "before_missed": [
+        2,
+        3
+      ],
+      "after_missed": [
+        3
+      ]
+    },
+    {
+      "file_name": "AoF04440.jpg",
+      "before_missed": [],
+      "after_missed": [
+        0
+      ]
+    },
+    {
+      "file_name": "AoF04499.jpg",
+      "before_missed": [],
+      "after_missed": [
+        1
+      ]
+    },
+    {
+      "file_name": "AoF04680.jpg",
+      "before_missed": [],
+      "after_missed": [
+        0
+      ]
+    },
+    {
+      "file_name": "AoF04983.jpg",
+      "before_missed": [
+        2
+      ],
+      "after_missed": []
+    },
+    {
+      "file_name": "PublicDataset00083.jpg",
+      "before_missed": [],
+      "after_missed": [
+        0
+      ]
+    },
+    {
+      "file_name": "PublicDataset00649.jpg",
+      "before_missed": [],
+      "after_missed": [
+        1
+      ]
+    },
+    {
+      "file_name": "WEB03713.jpg",
+      "before_missed": [
+        0,
+        1
+      ],
+      "after_missed": [
+        1
+      ]
+    },
+    {
+      "file_name": "WEB03745.jpg",
+      "before_missed": [
+        1
+      ],
+      "after_missed": []
+    },
+    {
+      "file_name": "WEB03907.jpg",
+      "before_missed": [],
+      "after_missed": [
+        0
+      ]
+    },
+    {
+      "file_name": "WEB03951.jpg",
+      "before_missed": [
+        5,
+        6,
+        7,
+        11,
+        12,
+        13,
+        14
+      ],
+      "after_missed": [
+        5,
+        6,
+        7,
+        11,
+        13,
+        14
+      ]
+    },
+    {
+      "file_name": "WEB04284.jpg",
+      "before_missed": [
+        0
+      ],
+      "after_missed": [
+        0,
+        1
+      ]
+    },
+    {
+      "file_name": "WEB04334.jpg",
+      "before_missed": [
+        1,
+        3
+      ],
+      "after_missed": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "file_name": "WEB04361.jpg",
+      "before_missed": [],
+      "after_missed": [
+        0
+      ]
+    },
+    {
+      "file_name": "WEB04373.jpg",
+      "before_missed": [],
+      "after_missed": [
+        1
+      ]
+    },
+    {
+      "file_name": "WEB04376.jpg",
+      "before_missed": [
+        4
+      ],
+      "after_missed": [
+        3,
+        4
+      ]
+    },
+    {
+      "file_name": "WEB04400.jpg",
+      "before_missed": [
+        0,
+        3
+      ],
+      "after_missed": [
+        3
+      ]
+    },
+    {
+      "file_name": "WEB04455.jpg",
+      "before_missed": [
+        1,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "after_missed": [
+        1,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "file_name": "WEB04690.jpg",
+      "before_missed": [],
+      "after_missed": [
+        0
+      ]
+    },
+    {
+      "file_name": "WEB04714.jpg",
+      "before_missed": [
+        1,
+        2
+      ],
+      "after_missed": [
+        2
+      ]
+    },
+    {
+      "file_name": "WEB04795.jpg",
+      "before_missed": [
+        0,
+        1
+      ],
+      "after_missed": [
+        0
+      ]
+    },
+    {
+      "file_name": "WEB04876.jpg",
+      "before_missed": [],
+      "after_missed": [
+        1
+      ]
+    },
+    {
+      "file_name": "WEB04881.jpg",
+      "before_missed": [
+        3
+      ],
+      "after_missed": []
+    },
+    {
+      "file_name": "WEB04939.jpg",
+      "before_missed": [],
+      "after_missed": [
+        0
+      ]
+    },
+    {
+      "file_name": "WEB04966.jpg",
+      "before_missed": [
+        2,
+        3
+      ],
+      "after_missed": [
+        2,
+        3,
+        6
+      ]
+    },
+    {
+      "file_name": "WEB04972.jpg",
+      "before_missed": [],
+      "after_missed": [
+        0
+      ]
+    },
+    {
+      "file_name": "WEB05333.jpg",
+      "before_missed": [
+        0
+      ],
+      "after_missed": [
+        0,
+        2
+      ]
+    },
+    {
+      "file_name": "WEB05371.jpg",
+      "before_missed": [
+        2
+      ],
+      "after_missed": []
+    },
+    {
+      "file_name": "WEB05494.jpg",
+      "before_missed": [
+        3
+      ],
+      "after_missed": []
+    },
+    {
+      "file_name": "WEB05512.jpg",
+      "before_missed": [],
+      "after_missed": [
+        3
+      ]
+    },
+    {
+      "file_name": "WEB05637.jpg",
+      "before_missed": [
+        0,
+        2,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "after_missed": [
+        0,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "file_name": "WEB05830.jpg",
+      "before_missed": [
+        1
+      ],
+      "after_missed": []
+    },
+    {
+      "file_name": "WEB05957.jpg",
+      "before_missed": [
+        1,
+        5
+      ],
+      "after_missed": [
+        1
+      ]
+    },
+    {
+      "file_name": "WEB05958.jpg",
+      "before_missed": [
+        4,
+        5
+      ],
+      "after_missed": [
+        4
+      ]
+    },
+    {
+      "file_name": "WEB05984.jpg",
+      "before_missed": [
+        0,
+        2
+      ],
+      "after_missed": [
+        0
+      ]
+    },
+    {
+      "file_name": "WEB05990.jpg",
+      "before_missed": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "after_missed": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "file_name": "WEB06377.jpg",
+      "before_missed": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        11,
+        12,
+        13,
+        14
+      ],
+      "after_missed": [
+        0,
+        2,
+        4,
+        5,
+        6,
+        8,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "file_name": "WEB06406.jpg",
+      "before_missed": [
+        2,
+        3,
+        4
+      ],
+      "after_missed": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "file_name": "WEB06689.jpg",
+      "before_missed": [
+        1
+      ],
+      "after_missed": []
+    },
+    {
+      "file_name": "WEB06711.jpg",
+      "before_missed": [
+        2
+      ],
+      "after_missed": []
+    },
+    {
+      "file_name": "WEB06742.jpg",
+      "before_missed": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "after_missed": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "file_name": "WEB06763.jpg",
+      "before_missed": [
+        2
+      ],
+      "after_missed": [
+        0,
+        2
+      ]
+    },
+    {
+      "file_name": "WEB06900.jpg",
+      "before_missed": [
+        0,
+        2,
+        3,
+        4,
+        7,
+        8
+      ],
+      "after_missed": [
+        0,
+        2,
+        3,
+        4,
+        8
+      ]
+    },
+    {
+      "file_name": "WEB07134.jpg",
+      "before_missed": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "after_missed": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "file_name": "WEB07185.jpg",
+      "before_missed": [
+        1,
+        2
+      ],
+      "after_missed": []
+    },
+    {
+      "file_name": "WEB07418.jpg",
+      "before_missed": [
+        2
+      ],
+      "after_missed": [
+        1,
+        2
+      ]
+    },
+    {
+      "file_name": "WEB07593.jpg",
+      "before_missed": [
+        0
+      ],
+      "after_missed": [
+        1
+      ]
+    },
+    {
+      "file_name": "WEB07733.jpg",
+      "before_missed": [
+        0,
+        2,
+        4
+      ],
+      "after_missed": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "file_name": "WEB08453.jpg",
+      "before_missed": [],
+      "after_missed": [
+        0
+      ]
+    },
+    {
+      "file_name": "WEB08962.jpg",
+      "before_missed": [
+        1
+      ],
+      "after_missed": [
+        0,
+        1
+      ]
+    }
+  ]
+}

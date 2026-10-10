@@ -8,6 +8,8 @@ venv/
 
 # Secrets
 .env
+.env.*
+!.env.example
 *.key
 
 # Local data, models, and experiment outputs
@@ -20,6 +22,11 @@ mlruns/
 *.onnx
 *.zip
 bus.jpg
+# Review photographs remain private; publish text/JSON summaries only.
+docs/**/examples/
+docs/fire_*/*.jpg
+docs/fire_*/*.jpeg
+docs/fire_*/*.png
 
 # Editor and operating system files
 .vscode/

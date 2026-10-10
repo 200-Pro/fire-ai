@@ -1,0 +1,17 @@
+{
+  "model": "yolo11n.pt",
+  "epochs": 80,
+  "imgsz": 640,
+  "batch": 16,
+  "patience": 15,
+  "seed": 42,
+  "deterministic": true,
+  "workers": 2,
+  "device": 0,
+  "cache": false,
+  "amp": true,
+  "save": true,
+  "save_period": -1,
+  "plots": true,
+  "optimizer": "auto"
+}

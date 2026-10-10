@@ -38,10 +38,10 @@ powershell -ExecutionPolicy Bypass -File ".\scripts\audit_system.ps1"
 ## Colab에서 실행할 첫 셀
 
 ```python
-!pip install -U ultralytics
+!pip install ultralytics==8.4.143
 ```
 
-Colab 학습 모델명은 `yolo26n.pt`를 사용합니다. 학습 완료 후 생성된 `best.pt`를 로컬 추론 PC의 `C:\fire-ai-local\weights`에 저장합니다.
+새 본 학습은 `yolo11n.pt`를 사용합니다. `dfire_team_training.ipynb`를 각자 사본 저장하고 서로 다른 MEMBER_ID로 실행합니다. 상세 순서와 백업/재개는 [TRAINING_READY.md](TRAINING_READY.md)를 따릅니다. 최종 선정된 `best.pt`를 로컬 추론 PC의 `C:\fire-ai-local\weights`에 저장합니다.
 
 ## 주의사항
 

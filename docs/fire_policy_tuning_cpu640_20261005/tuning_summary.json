@@ -1,0 +1,90 @@
+{
+  "state": "validated_candidate",
+  "imgsz": 640,
+  "baseline_imgsz": 640,
+  "policy": {
+    "strong_conf": 0.25,
+    "weak_conf": 0.22,
+    "weak_support": "near_strong_fire",
+    "support_radius": 0.4,
+    "duplicate_iou": 0.45,
+    "smoke_conf": 0.25
+  },
+  "baseline_calibration": {
+    "tp": 1046,
+    "fp": 611,
+    "fn": 454,
+    "image_alarm_tp": 599,
+    "image_alarm_fn": 22,
+    "no_fire_image_alarm_fp": 26,
+    "no_fire_image_alarm_tn": 1763,
+    "lost_baseline_positive_images": 0,
+    "precision": 0.6312613156306578,
+    "recall": 0.6973333333333334
+  },
+  "candidate_calibration": {
+    "tp": 1046,
+    "fp": 511,
+    "fn": 454,
+    "image_alarm_tp": 599,
+    "image_alarm_fn": 22,
+    "no_fire_image_alarm_fp": 26,
+    "no_fire_image_alarm_tn": 1763,
+    "lost_baseline_positive_images": 0,
+    "precision": 0.6718047527296083,
+    "recall": 0.6973333333333334
+  },
+  "baseline_audit": {
+    "tp": 469,
+    "fp": 259,
+    "fn": 185,
+    "image_alarm_tp": 256,
+    "image_alarm_fn": 11,
+    "no_fire_image_alarm_fp": 8,
+    "no_fire_image_alarm_tn": 760,
+    "lost_baseline_positive_images": 0,
+    "precision": 0.6442307692307693,
+    "recall": 0.7171253822629969
+  },
+  "candidate_audit": {
+    "tp": 470,
+    "fp": 227,
+    "fn": 184,
+    "image_alarm_tp": 256,
+    "image_alarm_fn": 11,
+    "no_fire_image_alarm_fp": 8,
+    "no_fire_image_alarm_tn": 760,
+    "lost_baseline_positive_images": 0,
+    "precision": 0.6743185078909613,
+    "recall": 0.7186544342507645
+  },
+  "baseline": {
+    "tp": 1515,
+    "fp": 870,
+    "fn": 639,
+    "image_alarm_tp": 855,
+    "image_alarm_fn": 33,
+    "no_fire_image_alarm_fp": 34,
+    "no_fire_image_alarm_tn": 2523,
+    "lost_baseline_positive_images": 0,
+    "precision": 0.6352201257861635,
+    "recall": 0.7033426183844012
+  },
+  "candidate": {
+    "tp": 1516,
+    "fp": 738,
+    "fn": 638,
+    "image_alarm_tp": 855,
+    "image_alarm_fn": 33,
+    "no_fire_image_alarm_fp": 34,
+    "no_fire_image_alarm_tn": 2523,
+    "lost_baseline_positive_images": 0,
+    "precision": 0.6725820763087844,
+    "recall": 0.7038068709377902
+  },
+  "calibration_images": 2410,
+  "audit_images": 1035,
+  "candidate_count": 309,
+  "selection": "Minimize calibration box FP subject to no baseline box/image recall loss and no increase in fire-absent-image false alarms. Then one audit pass.",
+  "limitations": "All material is prior val; this is not independent test or real CCTV validation."
+}

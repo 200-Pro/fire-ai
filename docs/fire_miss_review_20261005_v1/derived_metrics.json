@@ -1,0 +1,142 @@
+{
+  "source": "G:\\내 드라이브\\2026 3학년 2학기 진로탐색\\Data\\DFire\\training_results\\yolo11n_v1\\jongwon_to70_20261004T144737Z_9154ce3d\\analysis\\fire_fn_val_20261004T151828Z_23484307",
+  "predictions_sha256": "25f90defc6f09ecf035437d3f43b8d755b8b4c266de273858502441ecb3f7c4a",
+  "model_sha256": "57c133a489976dc2f7341381b12cf160622e0bbaff33aeffdee4926e2093611d",
+  "images": 3445,
+  "fire_images": 888,
+  "no_fire_images": 2557,
+  "boxes": 2154,
+  "hint_counts": {
+    "no_overlapping_fire_at_conf005": 58,
+    "low_confidence_candidate": 315,
+    "localization_or_weak_overlap": 255,
+    "smoke_overlap_review": 12
+  },
+  "size_analysis": {
+    ">=32px": {
+      "gt_boxes": 975,
+      "missed_boxes": 184,
+      "miss_rate": 0.18871794871794872
+    },
+    "8-<16px": {
+      "gt_boxes": 433,
+      "missed_boxes": 190,
+      "miss_rate": 0.4387990762124711
+    },
+    "16-<32px": {
+      "gt_boxes": 615,
+      "missed_boxes": 179,
+      "miss_rate": 0.2910569105691057
+    },
+    "<8px": {
+      "gt_boxes": 131,
+      "missed_boxes": 87,
+      "miss_rate": 0.6641221374045801
+    }
+  },
+  "fp_types_conf025": {
+    "no_fire_ground_truth_image": 44,
+    "no_overlap_with_annotated_fire": 178,
+    "overlap_but_iou_below_05": 534,
+    "duplicate_or_matching_competition": 114
+  },
+  "missed_gt_best_iou_conf025": {
+    "0": 290,
+    "0-<0.25": 167,
+    "0.25-<0.4": 101,
+    "0.4-<0.5": 82
+  },
+  "threshold_metrics": [
+    {
+      "confidence": 0.1,
+      "tp": 1741,
+      "fp": 2360,
+      "fn": 413,
+      "fire_images_missed_all": 60,
+      "images_with_fire_fp": 699,
+      "no_fire_images_with_fire_fp": 69,
+      "fire_image_alarm_tp": 873,
+      "fire_image_alarm_fn": 15,
+      "no_fire_image_alarm_fp": 69,
+      "no_fire_image_alarm_tn": 2488,
+      "fire_image_alarm_recall": 0.9831081081081081,
+      "no_fire_image_alarm_rate": 0.02698474775127102
+    },
+    {
+      "confidence": 0.15,
+      "tp": 1650,
+      "fp": 1639,
+      "fn": 504,
+      "fire_images_missed_all": 75,
+      "images_with_fire_fp": 615,
+      "no_fire_images_with_fire_fp": 51,
+      "fire_image_alarm_tp": 868,
+      "fire_image_alarm_fn": 20,
+      "no_fire_image_alarm_fp": 51,
+      "no_fire_image_alarm_tn": 2506,
+      "fire_image_alarm_recall": 0.9774774774774775,
+      "no_fire_image_alarm_rate": 0.01994524833789597
+    },
+    {
+      "confidence": 0.2,
+      "tp": 1576,
+      "fp": 1166,
+      "fn": 578,
+      "fire_images_missed_all": 85,
+      "images_with_fire_fp": 538,
+      "no_fire_images_with_fire_fp": 41,
+      "fire_image_alarm_tp": 863,
+      "fire_image_alarm_fn": 25,
+      "no_fire_image_alarm_fp": 41,
+      "no_fire_image_alarm_tn": 2516,
+      "fire_image_alarm_recall": 0.9718468468468469,
+      "no_fire_image_alarm_rate": 0.016034415330465387
+    },
+    {
+      "confidence": 0.25,
+      "tp": 1514,
+      "fp": 870,
+      "fn": 640,
+      "fire_images_missed_all": 96,
+      "images_with_fire_fp": 475,
+      "no_fire_images_with_fire_fp": 34,
+      "fire_image_alarm_tp": 855,
+      "fire_image_alarm_fn": 33,
+      "no_fire_image_alarm_fp": 34,
+      "no_fire_image_alarm_tn": 2523,
+      "fire_image_alarm_recall": 0.9628378378378378,
+      "no_fire_image_alarm_rate": 0.01329683222526398
+    },
+    {
+      "confidence": 0.35,
+      "tp": 1377,
+      "fp": 498,
+      "fn": 777,
+      "fire_images_missed_all": 126,
+      "images_with_fire_fp": 349,
+      "no_fire_images_with_fire_fp": 23,
+      "fire_image_alarm_tp": 820,
+      "fire_image_alarm_fn": 68,
+      "no_fire_image_alarm_fp": 23,
+      "no_fire_image_alarm_tn": 2534,
+      "fire_image_alarm_recall": 0.9234234234234234,
+      "no_fire_image_alarm_rate": 0.00899491591709034
+    },
+    {
+      "confidence": 0.5,
+      "tp": 1060,
+      "fp": 205,
+      "fn": 1094,
+      "fire_images_missed_all": 223,
+      "images_with_fire_fp": 165,
+      "no_fire_images_with_fire_fp": 7,
+      "fire_image_alarm_tp": 712,
+      "fire_image_alarm_fn": 176,
+      "no_fire_image_alarm_fp": 7,
+      "no_fire_image_alarm_tn": 2550,
+      "fire_image_alarm_recall": 0.8018018018018018,
+      "no_fire_image_alarm_rate": 0.002737583105201408
+    }
+  ],
+  "note": "Image alarm = any fire prediction, ignoring location. NOT incident recall or FP/hour. Size bins use GT minimum side after 640 longest-side resize. No causal claim."
+}

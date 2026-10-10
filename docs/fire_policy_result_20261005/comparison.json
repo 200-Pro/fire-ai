@@ -1,0 +1,145 @@
+{
+  "model_sha256": "57c133a489976dc2f7341381b12cf160622e0bbaff33aeffdee4926e2093611d",
+  "source_predictions_sha256": "fd7af2a4376c286f8d454a86e73dcff54f0b374fc6f4dbc17dbea1a87041a006",
+  "policy_sha256": "48a196a5b6d124240443a1a2a8b792a716bba07b0f5033ebc49e276c9d60f749",
+  "images": 3445,
+  "baseline": {
+    "tp": 1515,
+    "fp": 870,
+    "fn": 639,
+    "image_alarm_tp": 855,
+    "image_alarm_fn": 33,
+    "no_fire_image_alarm_fp": 34,
+    "no_fire_image_alarm_tn": 2523,
+    "lost_baseline_positive_images": 0,
+    "precision": 0.6352201257861635,
+    "recall": 0.7033426183844012
+  },
+  "candidate": {
+    "tp": 1516,
+    "fp": 738,
+    "fn": 638,
+    "image_alarm_tp": 855,
+    "image_alarm_fn": 33,
+    "no_fire_image_alarm_fp": 34,
+    "no_fire_image_alarm_tn": 2523,
+    "lost_baseline_positive_images": 0,
+    "precision": 0.6725820763087844,
+    "recall": 0.7038068709377902
+  },
+  "recovered_boxes": 28,
+  "newly_missed_boxes": 27,
+  "raw_cpu640": {
+    "split": "val",
+    "model_sha256": "57c133a489976dc2f7341381b12cf160622e0bbaff33aeffdee4926e2093611d",
+    "dataset_manifest_sha256": "552385e5062a7259e89b95c4e7b289bb2dbdd48608d56d972f2d1f726d12bdca",
+    "images": 3445,
+    "prediction_floor": 0.05,
+    "nms_iou": 0.7,
+    "imgsz": 640,
+    "rect": false,
+    "max_det": 300,
+    "batch": 1,
+    "device": "cpu",
+    "torch_threads": 8,
+    "elapsed_seconds": 134.39099999999962,
+    "seconds_per_image": 0.03901044992743095,
+    "benchmark_only": false,
+    "threshold_sweep": [
+      {
+        "confidence": 0.1,
+        "tp": 1742,
+        "fp": 2357,
+        "fn": 412
+      },
+      {
+        "confidence": 0.15,
+        "tp": 1651,
+        "fp": 1637,
+        "fn": 503
+      },
+      {
+        "confidence": 0.2,
+        "tp": 1577,
+        "fp": 1166,
+        "fn": 577
+      },
+      {
+        "confidence": 0.25,
+        "tp": 1515,
+        "fp": 870,
+        "fn": 639
+      },
+      {
+        "confidence": 0.35,
+        "tp": 1377,
+        "fp": 498,
+        "fn": 777
+      },
+      {
+        "confidence": 0.5,
+        "tp": 1060,
+        "fp": 205,
+        "fn": 1094
+      }
+    ],
+    "note": "Compare same local CPU runtime. Prior Colab GPU numbers can differ slightly. Benchmark samples are timing checks only, not performance evidence."
+  },
+  "raw_cpu960": {
+    "split": "val",
+    "model_sha256": "57c133a489976dc2f7341381b12cf160622e0bbaff33aeffdee4926e2093611d",
+    "dataset_manifest_sha256": "552385e5062a7259e89b95c4e7b289bb2dbdd48608d56d972f2d1f726d12bdca",
+    "images": 3445,
+    "prediction_floor": 0.05,
+    "nms_iou": 0.7,
+    "imgsz": 960,
+    "rect": false,
+    "max_det": 300,
+    "batch": 1,
+    "device": "cpu",
+    "torch_threads": 8,
+    "elapsed_seconds": 239.71799999999985,
+    "seconds_per_image": 0.06958432510885337,
+    "benchmark_only": false,
+    "threshold_sweep": [
+      {
+        "confidence": 0.1,
+        "tp": 1781,
+        "fp": 2695,
+        "fn": 373
+      },
+      {
+        "confidence": 0.15,
+        "tp": 1706,
+        "fp": 1856,
+        "fn": 448
+      },
+      {
+        "confidence": 0.2,
+        "tp": 1629,
+        "fp": 1341,
+        "fn": 525
+      },
+      {
+        "confidence": 0.25,
+        "tp": 1537,
+        "fp": 1009,
+        "fn": 617
+      },
+      {
+        "confidence": 0.35,
+        "tp": 1369,
+        "fp": 601,
+        "fn": 785
+      },
+      {
+        "confidence": 0.5,
+        "tp": 1067,
+        "fp": 240,
+        "fn": 1087
+      }
+    ],
+    "note": "Compare same local CPU runtime. Prior Colab GPU numbers can differ slightly. Benchmark samples are timing checks only, not performance evidence."
+  },
+  "note": "All validation, no independent test. Aggregate miss count improves but individual boxes can regress."
+}

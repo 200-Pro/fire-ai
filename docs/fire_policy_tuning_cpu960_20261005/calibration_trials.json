@@ -1,0 +1,7433 @@
+[
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.25,
+      "weak_support": "none",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.7,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1058,
+      "fp": 706,
+      "fn": 442,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5997732426303855,
+      "recall": 0.7053333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.25,
+      "weak_support": "none",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1053,
+      "fp": 636,
+      "fn": 447,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6234458259325044,
+      "recall": 0.702
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.25,
+      "weak_support": "none",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.6,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1049,
+      "fp": 604,
+      "fn": 451,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6346037507562009,
+      "recall": 0.6993333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.25,
+      "weak_support": "none",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1045,
+      "fp": 582,
+      "fn": 455,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6422864167178857,
+      "recall": 0.6966666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.25,
+      "weak_support": "none",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.5,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1041,
+      "fp": 568,
+      "fn": 459,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6469857054070851,
+      "recall": 0.694
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.25,
+      "weak_support": "none",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1035,
+      "fp": 549,
+      "fn": 465,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6534090909090909,
+      "recall": 0.69
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.25,
+      "weak_support": "none",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.4,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1031,
+      "fp": 535,
+      "fn": 469,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6583652618135377,
+      "recall": 0.6873333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.23,
+      "weak_support": "image_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.7,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1091,
+      "fp": 784,
+      "fn": 409,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5818666666666666,
+      "recall": 0.7273333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.23,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.15,
+      "duplicate_iou": 0.7,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1082,
+      "fp": 775,
+      "fn": 418,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5826602046311254,
+      "recall": 0.7213333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.23,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.7,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1088,
+      "fp": 779,
+      "fn": 412,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5827530798071773,
+      "recall": 0.7253333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.23,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.4,
+      "duplicate_iou": 0.7,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1088,
+      "fp": 780,
+      "fn": 412,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.582441113490364,
+      "recall": 0.7253333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.23,
+      "weak_support": "image_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1086,
+      "fp": 697,
+      "fn": 414,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6090858104318564,
+      "recall": 0.724
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.23,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.15,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1077,
+      "fp": 688,
+      "fn": 423,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6101983002832861,
+      "recall": 0.718
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.23,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1083,
+      "fp": 692,
+      "fn": 417,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6101408450704225,
+      "recall": 0.722
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.23,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.4,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1083,
+      "fp": 693,
+      "fn": 417,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6097972972972973,
+      "recall": 0.722
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.23,
+      "weak_support": "image_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.6,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1081,
+      "fp": 659,
+      "fn": 419,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.621264367816092,
+      "recall": 0.7206666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.23,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.15,
+      "duplicate_iou": 0.6,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1072,
+      "fp": 650,
+      "fn": 428,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6225319396051103,
+      "recall": 0.7146666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.23,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.6,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1078,
+      "fp": 654,
+      "fn": 422,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6224018475750578,
+      "recall": 0.7186666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.23,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.4,
+      "duplicate_iou": 0.6,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1078,
+      "fp": 655,
+      "fn": 422,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6220427005193306,
+      "recall": 0.7186666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.23,
+      "weak_support": "image_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1075,
+      "fp": 632,
+      "fn": 425,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.629759812536614,
+      "recall": 0.7166666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.23,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.15,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1066,
+      "fp": 623,
+      "fn": 434,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6311426879810539,
+      "recall": 0.7106666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.23,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1072,
+      "fp": 627,
+      "fn": 428,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6309593878752208,
+      "recall": 0.7146666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.23,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.4,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1072,
+      "fp": 628,
+      "fn": 428,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6305882352941177,
+      "recall": 0.7146666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.23,
+      "weak_support": "image_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.5,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1071,
+      "fp": 614,
+      "fn": 429,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6356083086053412,
+      "recall": 0.714
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.23,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.15,
+      "duplicate_iou": 0.5,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1062,
+      "fp": 605,
+      "fn": 438,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6370725854829035,
+      "recall": 0.708
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.23,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.5,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1068,
+      "fp": 609,
+      "fn": 432,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6368515205724508,
+      "recall": 0.712
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.23,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.4,
+      "duplicate_iou": 0.5,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1068,
+      "fp": 610,
+      "fn": 432,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.636471990464839,
+      "recall": 0.712
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.23,
+      "weak_support": "image_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1064,
+      "fp": 591,
+      "fn": 436,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6429003021148036,
+      "recall": 0.7093333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.23,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.15,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1055,
+      "fp": 582,
+      "fn": 445,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6444715943799634,
+      "recall": 0.7033333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.23,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1061,
+      "fp": 586,
+      "fn": 439,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6442015786278081,
+      "recall": 0.7073333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.23,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.4,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1061,
+      "fp": 587,
+      "fn": 439,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6438106796116505,
+      "recall": 0.7073333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.23,
+      "weak_support": "image_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.4,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1059,
+      "fp": 575,
+      "fn": 441,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6481028151774786,
+      "recall": 0.706
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.23,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.15,
+      "duplicate_iou": 0.4,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1050,
+      "fp": 566,
+      "fn": 450,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6497524752475248,
+      "recall": 0.7
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.23,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.4,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1056,
+      "fp": 570,
+      "fn": 444,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6494464944649446,
+      "recall": 0.704
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.23,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.4,
+      "duplicate_iou": 0.4,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1056,
+      "fp": 571,
+      "fn": 444,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6490473263675476,
+      "recall": 0.704
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.22,
+      "weak_support": "image_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.7,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1105,
+      "fp": 831,
+      "fn": 395,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5707644628099173,
+      "recall": 0.7366666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.22,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.15,
+      "duplicate_iou": 0.7,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1095,
+      "fp": 809,
+      "fn": 405,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5751050420168067,
+      "recall": 0.73
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.22,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.7,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1101,
+      "fp": 820,
+      "fn": 399,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.573138990109318,
+      "recall": 0.734
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.22,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.4,
+      "duplicate_iou": 0.7,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1102,
+      "fp": 823,
+      "fn": 398,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5724675324675325,
+      "recall": 0.7346666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.22,
+      "weak_support": "image_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1099,
+      "fp": 733,
+      "fn": 401,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5998908296943232,
+      "recall": 0.7326666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.22,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.15,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1089,
+      "fp": 711,
+      "fn": 411,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.605,
+      "recall": 0.726
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.22,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1095,
+      "fp": 722,
+      "fn": 405,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6026417171161255,
+      "recall": 0.73
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.22,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.4,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1096,
+      "fp": 725,
+      "fn": 404,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6018671059857221,
+      "recall": 0.7306666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.22,
+      "weak_support": "image_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.6,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1093,
+      "fp": 691,
+      "fn": 407,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6126681614349776,
+      "recall": 0.7286666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.22,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.15,
+      "duplicate_iou": 0.6,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1083,
+      "fp": 669,
+      "fn": 417,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6181506849315068,
+      "recall": 0.722
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.22,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.6,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1089,
+      "fp": 680,
+      "fn": 411,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6156020350480498,
+      "recall": 0.726
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.22,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.4,
+      "duplicate_iou": 0.6,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1090,
+      "fp": 683,
+      "fn": 410,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6147772137619854,
+      "recall": 0.7266666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.22,
+      "weak_support": "image_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1087,
+      "fp": 663,
+      "fn": 413,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6211428571428571,
+      "recall": 0.7246666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.22,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.15,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1077,
+      "fp": 641,
+      "fn": 423,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6268917345750873,
+      "recall": 0.718
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.22,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1083,
+      "fp": 652,
+      "fn": 417,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.624207492795389,
+      "recall": 0.722
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.22,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.4,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1084,
+      "fp": 655,
+      "fn": 416,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6233467510063255,
+      "recall": 0.7226666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.22,
+      "weak_support": "image_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.5,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1082,
+      "fp": 643,
+      "fn": 418,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6272463768115942,
+      "recall": 0.7213333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.22,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.15,
+      "duplicate_iou": 0.5,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1072,
+      "fp": 621,
+      "fn": 428,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6331955109273479,
+      "recall": 0.7146666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.22,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.5,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1078,
+      "fp": 632,
+      "fn": 422,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6304093567251462,
+      "recall": 0.7186666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.22,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.4,
+      "duplicate_iou": 0.5,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1079,
+      "fp": 635,
+      "fn": 421,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6295215869311552,
+      "recall": 0.7193333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.22,
+      "weak_support": "image_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1075,
+      "fp": 619,
+      "fn": 425,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6345926800472255,
+      "recall": 0.7166666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.22,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.15,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1065,
+      "fp": 597,
+      "fn": 435,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6407942238267148,
+      "recall": 0.71
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.22,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1071,
+      "fp": 608,
+      "fn": 429,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6378796902918403,
+      "recall": 0.714
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.22,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.4,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1072,
+      "fp": 611,
+      "fn": 428,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6369578134284016,
+      "recall": 0.7146666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.22,
+      "weak_support": "image_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.4,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1070,
+      "fp": 602,
+      "fn": 430,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6399521531100478,
+      "recall": 0.7133333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.22,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.15,
+      "duplicate_iou": 0.4,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1060,
+      "fp": 580,
+      "fn": 440,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6463414634146342,
+      "recall": 0.7066666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.22,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.4,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1066,
+      "fp": 591,
+      "fn": 434,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6433313216656609,
+      "recall": 0.7106666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.22,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.4,
+      "duplicate_iou": 0.4,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1067,
+      "fp": 594,
+      "fn": 433,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6423841059602649,
+      "recall": 0.7113333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.2,
+      "weak_support": "image_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.7,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1130,
+      "fp": 924,
+      "fn": 370,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5501460564751705,
+      "recall": 0.7533333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.2,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.15,
+      "duplicate_iou": 0.7,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1114,
+      "fp": 883,
+      "fn": 386,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.557836755132699,
+      "recall": 0.7426666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.2,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.7,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1124,
+      "fp": 901,
+      "fn": 376,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5550617283950617,
+      "recall": 0.7493333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.2,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.4,
+      "duplicate_iou": 0.7,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1127,
+      "fp": 908,
+      "fn": 373,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5538083538083538,
+      "recall": 0.7513333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.2,
+      "weak_support": "image_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1123,
+      "fp": 803,
+      "fn": 377,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5830737279335411,
+      "recall": 0.7486666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.2,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.15,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1107,
+      "fp": 762,
+      "fn": 393,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5922953451043339,
+      "recall": 0.738
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.2,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1117,
+      "fp": 780,
+      "fn": 383,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5888244596731682,
+      "recall": 0.7446666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.2,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.4,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1120,
+      "fp": 787,
+      "fn": 380,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5873099108547457,
+      "recall": 0.7466666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.2,
+      "weak_support": "image_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.6,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1116,
+      "fp": 754,
+      "fn": 384,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5967914438502674,
+      "recall": 0.744
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.2,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.15,
+      "duplicate_iou": 0.6,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1100,
+      "fp": 713,
+      "fn": 400,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6067291781577496,
+      "recall": 0.7333333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.2,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.6,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1110,
+      "fp": 731,
+      "fn": 390,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6029331884845193,
+      "recall": 0.74
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.2,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.4,
+      "duplicate_iou": 0.6,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1113,
+      "fp": 738,
+      "fn": 387,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6012965964343598,
+      "recall": 0.742
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.2,
+      "weak_support": "image_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1110,
+      "fp": 723,
+      "fn": 390,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6055646481178396,
+      "recall": 0.74
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.2,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.15,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1094,
+      "fp": 682,
+      "fn": 406,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.615990990990991,
+      "recall": 0.7293333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.2,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1104,
+      "fp": 700,
+      "fn": 396,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6119733924611973,
+      "recall": 0.736
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.2,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.4,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1107,
+      "fp": 707,
+      "fn": 393,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6102535832414554,
+      "recall": 0.738
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.2,
+      "weak_support": "image_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.5,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1104,
+      "fp": 697,
+      "fn": 396,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6129927817878956,
+      "recall": 0.736
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.2,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.15,
+      "duplicate_iou": 0.5,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1088,
+      "fp": 656,
+      "fn": 412,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6238532110091743,
+      "recall": 0.7253333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.2,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.5,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1098,
+      "fp": 674,
+      "fn": 402,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6196388261851016,
+      "recall": 0.732
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.2,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.4,
+      "duplicate_iou": 0.5,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1101,
+      "fp": 681,
+      "fn": 399,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6178451178451179,
+      "recall": 0.734
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.2,
+      "weak_support": "image_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1097,
+      "fp": 668,
+      "fn": 403,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6215297450424929,
+      "recall": 0.7313333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.2,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.15,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1081,
+      "fp": 628,
+      "fn": 419,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6325336454066706,
+      "recall": 0.7206666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.2,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1091,
+      "fp": 645,
+      "fn": 409,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6284562211981567,
+      "recall": 0.7273333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.2,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.4,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1094,
+      "fp": 652,
+      "fn": 406,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6265750286368843,
+      "recall": 0.7293333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.2,
+      "weak_support": "image_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.4,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1091,
+      "fp": 650,
+      "fn": 409,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6266513497989661,
+      "recall": 0.7273333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.2,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.15,
+      "duplicate_iou": 0.4,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1075,
+      "fp": 611,
+      "fn": 425,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6376037959667853,
+      "recall": 0.7166666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.2,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.4,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1085,
+      "fp": 627,
+      "fn": 415,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6337616822429907,
+      "recall": 0.7233333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.2,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.4,
+      "duplicate_iou": 0.4,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1088,
+      "fp": 634,
+      "fn": 412,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6318234610917538,
+      "recall": 0.7253333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.18,
+      "weak_support": "image_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.7,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1151,
+      "fp": 1032,
+      "fn": 349,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.527256069628951,
+      "recall": 0.7673333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.18,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.15,
+      "duplicate_iou": 0.7,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1130,
+      "fp": 971,
+      "fn": 370,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5378391242265588,
+      "recall": 0.7533333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.18,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.7,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1143,
+      "fp": 1000,
+      "fn": 357,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5333644423705086,
+      "recall": 0.762
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.18,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.4,
+      "duplicate_iou": 0.7,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1147,
+      "fp": 1013,
+      "fn": 353,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5310185185185186,
+      "recall": 0.7646666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.18,
+      "weak_support": "image_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1142,
+      "fp": 899,
+      "fn": 358,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5595296423321902,
+      "recall": 0.7613333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.18,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.15,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1121,
+      "fp": 839,
+      "fn": 379,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5719387755102041,
+      "recall": 0.7473333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.18,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1134,
+      "fp": 867,
+      "fn": 366,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5667166416791605,
+      "recall": 0.756
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.18,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.4,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1138,
+      "fp": 880,
+      "fn": 362,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5639246778989098,
+      "recall": 0.7586666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.18,
+      "weak_support": "image_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.6,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1135,
+      "fp": 833,
+      "fn": 365,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5767276422764228,
+      "recall": 0.7566666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.18,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.15,
+      "duplicate_iou": 0.6,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1114,
+      "fp": 775,
+      "fn": 386,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5897300158814187,
+      "recall": 0.7426666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.18,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.6,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1127,
+      "fp": 802,
+      "fn": 373,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5842405391394505,
+      "recall": 0.7513333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.18,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.4,
+      "duplicate_iou": 0.6,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1131,
+      "fp": 815,
+      "fn": 369,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5811921891058581,
+      "recall": 0.754
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.18,
+      "weak_support": "image_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1129,
+      "fp": 800,
+      "fn": 371,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.585277345775013,
+      "recall": 0.7526666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.18,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.15,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1108,
+      "fp": 742,
+      "fn": 392,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5989189189189189,
+      "recall": 0.7386666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.18,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1121,
+      "fp": 769,
+      "fn": 379,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5931216931216932,
+      "recall": 0.7473333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.18,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.4,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1125,
+      "fp": 782,
+      "fn": 375,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5899318300996329,
+      "recall": 0.75
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.18,
+      "weak_support": "image_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.5,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1123,
+      "fp": 772,
+      "fn": 377,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5926121372031662,
+      "recall": 0.7486666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.18,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.15,
+      "duplicate_iou": 0.5,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1102,
+      "fp": 714,
+      "fn": 398,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6068281938325991,
+      "recall": 0.7346666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.18,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.5,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1115,
+      "fp": 741,
+      "fn": 385,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6007543103448276,
+      "recall": 0.7433333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.18,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.4,
+      "duplicate_iou": 0.5,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1119,
+      "fp": 754,
+      "fn": 381,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.597437266417512,
+      "recall": 0.746
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.18,
+      "weak_support": "image_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1116,
+      "fp": 741,
+      "fn": 384,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6009693053311793,
+      "recall": 0.744
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.18,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.15,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1095,
+      "fp": 684,
+      "fn": 405,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6155143338954469,
+      "recall": 0.73
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.18,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1108,
+      "fp": 710,
+      "fn": 392,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6094609460946094,
+      "recall": 0.7386666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.18,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.4,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1112,
+      "fp": 723,
+      "fn": 388,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6059945504087193,
+      "recall": 0.7413333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.18,
+      "weak_support": "image_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.4,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1108,
+      "fp": 715,
+      "fn": 392,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.607789358200768,
+      "recall": 0.7386666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.18,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.15,
+      "duplicate_iou": 0.4,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1087,
+      "fp": 659,
+      "fn": 413,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6225658648339061,
+      "recall": 0.7246666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.18,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.4,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1100,
+      "fp": 684,
+      "fn": 400,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6165919282511211,
+      "recall": 0.7333333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.18,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.4,
+      "duplicate_iou": 0.4,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1104,
+      "fp": 697,
+      "fn": 396,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6129927817878956,
+      "recall": 0.736
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.15,
+      "weak_support": "image_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.7,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1185,
+      "fp": 1266,
+      "fn": 315,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.4834761321909425,
+      "recall": 0.79
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.15,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.15,
+      "duplicate_iou": 0.7,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1155,
+      "fp": 1156,
+      "fn": 345,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.49978364344439635,
+      "recall": 0.77
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.15,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.7,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1173,
+      "fp": 1206,
+      "fn": 327,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.4930643127364439,
+      "recall": 0.782
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.15,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.4,
+      "duplicate_iou": 0.7,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1179,
+      "fp": 1239,
+      "fn": 321,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.48759305210918114,
+      "recall": 0.786
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.15,
+      "weak_support": "image_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1173,
+      "fp": 1086,
+      "fn": 327,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5192563081009296,
+      "recall": 0.782
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.15,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.15,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1143,
+      "fp": 981,
+      "fn": 357,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.538135593220339,
+      "recall": 0.762
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.15,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1161,
+      "fp": 1028,
+      "fn": 339,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5303791685701233,
+      "recall": 0.774
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.15,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.4,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1167,
+      "fp": 1060,
+      "fn": 333,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5240233497979344,
+      "recall": 0.778
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.15,
+      "weak_support": "image_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.6,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1165,
+      "fp": 998,
+      "fn": 335,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5386037910309754,
+      "recall": 0.7766666666666666
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.15,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.15,
+      "duplicate_iou": 0.6,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1135,
+      "fp": 896,
+      "fn": 365,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5588380108321024,
+      "recall": 0.7566666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.15,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.6,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1153,
+      "fp": 942,
+      "fn": 347,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5503579952267303,
+      "recall": 0.7686666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.15,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.4,
+      "duplicate_iou": 0.6,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1159,
+      "fp": 973,
+      "fn": 341,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5436210131332082,
+      "recall": 0.7726666666666666
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.15,
+      "weak_support": "image_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1160,
+      "fp": 953,
+      "fn": 340,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5489824893516327,
+      "recall": 0.7733333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.15,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.15,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1129,
+      "fp": 853,
+      "fn": 371,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5696266397578204,
+      "recall": 0.7526666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.15,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1147,
+      "fp": 898,
+      "fn": 353,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.560880195599022,
+      "recall": 0.7646666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.15,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.4,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1154,
+      "fp": 928,
+      "fn": 346,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5542747358309318,
+      "recall": 0.7693333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.15,
+      "weak_support": "image_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.5,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1154,
+      "fp": 910,
+      "fn": 346,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5591085271317829,
+      "recall": 0.7693333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.15,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.15,
+      "duplicate_iou": 0.5,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1123,
+      "fp": 811,
+      "fn": 377,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5806618407445708,
+      "recall": 0.7486666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.15,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.5,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1141,
+      "fp": 856,
+      "fn": 359,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.57135703555333,
+      "recall": 0.7606666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.15,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.4,
+      "duplicate_iou": 0.5,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1148,
+      "fp": 885,
+      "fn": 352,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5646827348745695,
+      "recall": 0.7653333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.15,
+      "weak_support": "image_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1146,
+      "fp": 868,
+      "fn": 354,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5690168818272096,
+      "recall": 0.764
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.15,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.15,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1115,
+      "fp": 774,
+      "fn": 385,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5902593965060878,
+      "recall": 0.7433333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.15,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1133,
+      "fp": 816,
+      "fn": 367,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5813237557721909,
+      "recall": 0.7553333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.15,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.4,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1140,
+      "fp": 844,
+      "fn": 360,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5745967741935484,
+      "recall": 0.76
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.15,
+      "weak_support": "image_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.4,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1135,
+      "fp": 831,
+      "fn": 365,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5773143438453713,
+      "recall": 0.7566666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.15,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.15,
+      "duplicate_iou": 0.4,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1104,
+      "fp": 740,
+      "fn": 396,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5986984815618221,
+      "recall": 0.736
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.15,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.25,
+      "duplicate_iou": 0.4,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1122,
+      "fp": 781,
+      "fn": 378,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5895953757225434,
+      "recall": 0.748
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.25,
+      "weak_conf": 0.15,
+      "weak_support": "near_strong_fire",
+      "support_radius": 0.4,
+      "duplicate_iou": 0.4,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1129,
+      "fp": 808,
+      "fn": 371,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.582860092927207,
+      "recall": 0.7526666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1053,
+      "fp": 625,
+      "fn": 447,
+      "image_alarm_tp": 599,
+      "image_alarm_fn": 22,
+      "no_fire_image_alarm_fp": 32,
+      "no_fire_image_alarm_tn": 1757,
+      "lost_baseline_positive_images": 6,
+      "precision": 0.6275327771156138,
+      "recall": 0.702
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1045,
+      "fp": 571,
+      "fn": 455,
+      "image_alarm_tp": 599,
+      "image_alarm_fn": 22,
+      "no_fire_image_alarm_fp": 32,
+      "no_fire_image_alarm_tn": 1757,
+      "lost_baseline_positive_images": 6,
+      "precision": 0.6466584158415841,
+      "recall": 0.6966666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1035,
+      "fp": 538,
+      "fn": 465,
+      "image_alarm_tp": 599,
+      "image_alarm_fn": 22,
+      "no_fire_image_alarm_fp": 32,
+      "no_fire_image_alarm_tn": 1757,
+      "lost_baseline_positive_images": 6,
+      "precision": 0.6579783852511125,
+      "recall": 0.69
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1053,
+      "fp": 624,
+      "fn": 447,
+      "image_alarm_tp": 599,
+      "image_alarm_fn": 22,
+      "no_fire_image_alarm_fp": 32,
+      "no_fire_image_alarm_tn": 1757,
+      "lost_baseline_positive_images": 6,
+      "precision": 0.627906976744186,
+      "recall": 0.702
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1045,
+      "fp": 570,
+      "fn": 455,
+      "image_alarm_tp": 599,
+      "image_alarm_fn": 22,
+      "no_fire_image_alarm_fp": 32,
+      "no_fire_image_alarm_tn": 1757,
+      "lost_baseline_positive_images": 6,
+      "precision": 0.6470588235294118,
+      "recall": 0.6966666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1035,
+      "fp": 537,
+      "fn": 465,
+      "image_alarm_tp": 599,
+      "image_alarm_fn": 22,
+      "no_fire_image_alarm_fp": 32,
+      "no_fire_image_alarm_tn": 1757,
+      "lost_baseline_positive_images": 6,
+      "precision": 0.6583969465648855,
+      "recall": 0.69
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1052,
+      "fp": 623,
+      "fn": 448,
+      "image_alarm_tp": 598,
+      "image_alarm_fn": 23,
+      "no_fire_image_alarm_fp": 31,
+      "no_fire_image_alarm_tn": 1758,
+      "lost_baseline_positive_images": 6,
+      "precision": 0.6280597014925373,
+      "recall": 0.7013333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1044,
+      "fp": 569,
+      "fn": 456,
+      "image_alarm_tp": 598,
+      "image_alarm_fn": 23,
+      "no_fire_image_alarm_fp": 31,
+      "no_fire_image_alarm_tn": 1758,
+      "lost_baseline_positive_images": 6,
+      "precision": 0.6472411655300682,
+      "recall": 0.696
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1034,
+      "fp": 536,
+      "fn": 466,
+      "image_alarm_tp": 598,
+      "image_alarm_fn": 23,
+      "no_fire_image_alarm_fp": 31,
+      "no_fire_image_alarm_tn": 1758,
+      "lost_baseline_positive_images": 6,
+      "precision": 0.6585987261146496,
+      "recall": 0.6893333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1052,
+      "fp": 622,
+      "fn": 448,
+      "image_alarm_tp": 598,
+      "image_alarm_fn": 23,
+      "no_fire_image_alarm_fp": 31,
+      "no_fire_image_alarm_tn": 1758,
+      "lost_baseline_positive_images": 6,
+      "precision": 0.6284348864994026,
+      "recall": 0.7013333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1044,
+      "fp": 568,
+      "fn": 456,
+      "image_alarm_tp": 598,
+      "image_alarm_fn": 23,
+      "no_fire_image_alarm_fp": 31,
+      "no_fire_image_alarm_tn": 1758,
+      "lost_baseline_positive_images": 6,
+      "precision": 0.6476426799007444,
+      "recall": 0.696
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1034,
+      "fp": 535,
+      "fn": 466,
+      "image_alarm_tp": 598,
+      "image_alarm_fn": 23,
+      "no_fire_image_alarm_fp": 31,
+      "no_fire_image_alarm_tn": 1758,
+      "lost_baseline_positive_images": 6,
+      "precision": 0.6590184831102613,
+      "recall": 0.6893333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1050,
+      "fp": 617,
+      "fn": 450,
+      "image_alarm_tp": 595,
+      "image_alarm_fn": 26,
+      "no_fire_image_alarm_fp": 30,
+      "no_fire_image_alarm_tn": 1759,
+      "lost_baseline_positive_images": 8,
+      "precision": 0.629874025194961,
+      "recall": 0.7
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1042,
+      "fp": 563,
+      "fn": 458,
+      "image_alarm_tp": 595,
+      "image_alarm_fn": 26,
+      "no_fire_image_alarm_fp": 30,
+      "no_fire_image_alarm_tn": 1759,
+      "lost_baseline_positive_images": 8,
+      "precision": 0.6492211838006231,
+      "recall": 0.6946666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1032,
+      "fp": 531,
+      "fn": 468,
+      "image_alarm_tp": 595,
+      "image_alarm_fn": 26,
+      "no_fire_image_alarm_fp": 30,
+      "no_fire_image_alarm_tn": 1759,
+      "lost_baseline_positive_images": 8,
+      "precision": 0.6602687140115163,
+      "recall": 0.688
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1050,
+      "fp": 617,
+      "fn": 450,
+      "image_alarm_tp": 595,
+      "image_alarm_fn": 26,
+      "no_fire_image_alarm_fp": 30,
+      "no_fire_image_alarm_tn": 1759,
+      "lost_baseline_positive_images": 8,
+      "precision": 0.629874025194961,
+      "recall": 0.7
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1042,
+      "fp": 563,
+      "fn": 458,
+      "image_alarm_tp": 595,
+      "image_alarm_fn": 26,
+      "no_fire_image_alarm_fp": 30,
+      "no_fire_image_alarm_tn": 1759,
+      "lost_baseline_positive_images": 8,
+      "precision": 0.6492211838006231,
+      "recall": 0.6946666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1032,
+      "fp": 531,
+      "fn": 468,
+      "image_alarm_tp": 595,
+      "image_alarm_fn": 26,
+      "no_fire_image_alarm_fp": 30,
+      "no_fire_image_alarm_tn": 1759,
+      "lost_baseline_positive_images": 8,
+      "precision": 0.6602687140115163,
+      "recall": 0.688
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1099,
+      "fp": 720,
+      "fn": 401,
+      "image_alarm_tp": 601,
+      "image_alarm_fn": 20,
+      "no_fire_image_alarm_fp": 34,
+      "no_fire_image_alarm_tn": 1755,
+      "lost_baseline_positive_images": 5,
+      "precision": 0.6041781198460693,
+      "recall": 0.7326666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1087,
+      "fp": 650,
+      "fn": 413,
+      "image_alarm_tp": 601,
+      "image_alarm_fn": 20,
+      "no_fire_image_alarm_fp": 34,
+      "no_fire_image_alarm_tn": 1755,
+      "lost_baseline_positive_images": 5,
+      "precision": 0.6257915947035118,
+      "recall": 0.7246666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1075,
+      "fp": 606,
+      "fn": 425,
+      "image_alarm_tp": 601,
+      "image_alarm_fn": 20,
+      "no_fire_image_alarm_fp": 34,
+      "no_fire_image_alarm_tn": 1755,
+      "lost_baseline_positive_images": 5,
+      "precision": 0.6395002974419988,
+      "recall": 0.7166666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1099,
+      "fp": 718,
+      "fn": 401,
+      "image_alarm_tp": 601,
+      "image_alarm_fn": 20,
+      "no_fire_image_alarm_fp": 34,
+      "no_fire_image_alarm_tn": 1755,
+      "lost_baseline_positive_images": 5,
+      "precision": 0.6048431480462301,
+      "recall": 0.7326666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1087,
+      "fp": 648,
+      "fn": 413,
+      "image_alarm_tp": 601,
+      "image_alarm_fn": 20,
+      "no_fire_image_alarm_fp": 34,
+      "no_fire_image_alarm_tn": 1755,
+      "lost_baseline_positive_images": 5,
+      "precision": 0.6265129682997118,
+      "recall": 0.7246666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1075,
+      "fp": 604,
+      "fn": 425,
+      "image_alarm_tp": 601,
+      "image_alarm_fn": 20,
+      "no_fire_image_alarm_fp": 34,
+      "no_fire_image_alarm_tn": 1755,
+      "lost_baseline_positive_images": 5,
+      "precision": 0.6402620607504467,
+      "recall": 0.7166666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1098,
+      "fp": 717,
+      "fn": 402,
+      "image_alarm_tp": 600,
+      "image_alarm_fn": 21,
+      "no_fire_image_alarm_fp": 33,
+      "no_fire_image_alarm_tn": 1756,
+      "lost_baseline_positive_images": 5,
+      "precision": 0.6049586776859505,
+      "recall": 0.732
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1086,
+      "fp": 647,
+      "fn": 414,
+      "image_alarm_tp": 600,
+      "image_alarm_fn": 21,
+      "no_fire_image_alarm_fp": 33,
+      "no_fire_image_alarm_tn": 1756,
+      "lost_baseline_positive_images": 5,
+      "precision": 0.6266589728793999,
+      "recall": 0.724
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1074,
+      "fp": 603,
+      "fn": 426,
+      "image_alarm_tp": 600,
+      "image_alarm_fn": 21,
+      "no_fire_image_alarm_fp": 33,
+      "no_fire_image_alarm_tn": 1756,
+      "lost_baseline_positive_images": 5,
+      "precision": 0.6404293381037567,
+      "recall": 0.716
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1098,
+      "fp": 715,
+      "fn": 402,
+      "image_alarm_tp": 600,
+      "image_alarm_fn": 21,
+      "no_fire_image_alarm_fp": 33,
+      "no_fire_image_alarm_tn": 1756,
+      "lost_baseline_positive_images": 5,
+      "precision": 0.6056260341974627,
+      "recall": 0.732
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1086,
+      "fp": 645,
+      "fn": 414,
+      "image_alarm_tp": 600,
+      "image_alarm_fn": 21,
+      "no_fire_image_alarm_fp": 33,
+      "no_fire_image_alarm_tn": 1756,
+      "lost_baseline_positive_images": 5,
+      "precision": 0.6273830155979203,
+      "recall": 0.724
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1074,
+      "fp": 601,
+      "fn": 426,
+      "image_alarm_tp": 600,
+      "image_alarm_fn": 21,
+      "no_fire_image_alarm_fp": 33,
+      "no_fire_image_alarm_tn": 1756,
+      "lost_baseline_positive_images": 5,
+      "precision": 0.6411940298507462,
+      "recall": 0.716
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1096,
+      "fp": 710,
+      "fn": 404,
+      "image_alarm_tp": 597,
+      "image_alarm_fn": 24,
+      "no_fire_image_alarm_fp": 32,
+      "no_fire_image_alarm_tn": 1757,
+      "lost_baseline_positive_images": 7,
+      "precision": 0.6068660022148394,
+      "recall": 0.7306666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1084,
+      "fp": 640,
+      "fn": 416,
+      "image_alarm_tp": 597,
+      "image_alarm_fn": 24,
+      "no_fire_image_alarm_fp": 32,
+      "no_fire_image_alarm_tn": 1757,
+      "lost_baseline_positive_images": 7,
+      "precision": 0.62877030162413,
+      "recall": 0.7226666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1072,
+      "fp": 597,
+      "fn": 428,
+      "image_alarm_tp": 597,
+      "image_alarm_fn": 24,
+      "no_fire_image_alarm_fp": 32,
+      "no_fire_image_alarm_tn": 1757,
+      "lost_baseline_positive_images": 7,
+      "precision": 0.6423007789095266,
+      "recall": 0.7146666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1096,
+      "fp": 709,
+      "fn": 404,
+      "image_alarm_tp": 597,
+      "image_alarm_fn": 24,
+      "no_fire_image_alarm_fp": 32,
+      "no_fire_image_alarm_tn": 1757,
+      "lost_baseline_positive_images": 7,
+      "precision": 0.607202216066482,
+      "recall": 0.7306666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1084,
+      "fp": 639,
+      "fn": 416,
+      "image_alarm_tp": 597,
+      "image_alarm_fn": 24,
+      "no_fire_image_alarm_fp": 32,
+      "no_fire_image_alarm_tn": 1757,
+      "lost_baseline_positive_images": 7,
+      "precision": 0.6291352292513058,
+      "recall": 0.7226666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1072,
+      "fp": 596,
+      "fn": 428,
+      "image_alarm_tp": 597,
+      "image_alarm_fn": 24,
+      "no_fire_image_alarm_fp": 32,
+      "no_fire_image_alarm_tn": 1757,
+      "lost_baseline_positive_images": 7,
+      "precision": 0.6426858513189448,
+      "recall": 0.7146666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1124,
+      "fp": 788,
+      "fn": 376,
+      "image_alarm_tp": 606,
+      "image_alarm_fn": 15,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 1,
+      "precision": 0.5878661087866108,
+      "recall": 0.7493333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1111,
+      "fp": 708,
+      "fn": 389,
+      "image_alarm_tp": 606,
+      "image_alarm_fn": 15,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 1,
+      "precision": 0.6107751511819681,
+      "recall": 0.7406666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1098,
+      "fp": 653,
+      "fn": 402,
+      "image_alarm_tp": 606,
+      "image_alarm_fn": 15,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 1,
+      "precision": 0.6270702455739577,
+      "recall": 0.732
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1124,
+      "fp": 783,
+      "fn": 376,
+      "image_alarm_tp": 604,
+      "image_alarm_fn": 17,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 3,
+      "precision": 0.5894074462506554,
+      "recall": 0.7493333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1111,
+      "fp": 703,
+      "fn": 389,
+      "image_alarm_tp": 604,
+      "image_alarm_fn": 17,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 3,
+      "precision": 0.6124586549062845,
+      "recall": 0.7406666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1098,
+      "fp": 648,
+      "fn": 402,
+      "image_alarm_tp": 604,
+      "image_alarm_fn": 17,
+      "no_fire_image_alarm_fp": 35,
+      "no_fire_image_alarm_tn": 1754,
+      "lost_baseline_positive_images": 3,
+      "precision": 0.6288659793814433,
+      "recall": 0.732
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1123,
+      "fp": 783,
+      "fn": 377,
+      "image_alarm_tp": 605,
+      "image_alarm_fn": 16,
+      "no_fire_image_alarm_fp": 33,
+      "no_fire_image_alarm_tn": 1756,
+      "lost_baseline_positive_images": 1,
+      "precision": 0.5891920251836307,
+      "recall": 0.7486666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1110,
+      "fp": 703,
+      "fn": 390,
+      "image_alarm_tp": 605,
+      "image_alarm_fn": 16,
+      "no_fire_image_alarm_fp": 33,
+      "no_fire_image_alarm_tn": 1756,
+      "lost_baseline_positive_images": 1,
+      "precision": 0.6122448979591837,
+      "recall": 0.74
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1097,
+      "fp": 648,
+      "fn": 403,
+      "image_alarm_tp": 605,
+      "image_alarm_fn": 16,
+      "no_fire_image_alarm_fp": 33,
+      "no_fire_image_alarm_tn": 1756,
+      "lost_baseline_positive_images": 1,
+      "precision": 0.6286532951289399,
+      "recall": 0.7313333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1123,
+      "fp": 778,
+      "fn": 377,
+      "image_alarm_tp": 603,
+      "image_alarm_fn": 18,
+      "no_fire_image_alarm_fp": 33,
+      "no_fire_image_alarm_tn": 1756,
+      "lost_baseline_positive_images": 3,
+      "precision": 0.5907417148869016,
+      "recall": 0.7486666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1110,
+      "fp": 698,
+      "fn": 390,
+      "image_alarm_tp": 603,
+      "image_alarm_fn": 18,
+      "no_fire_image_alarm_fp": 33,
+      "no_fire_image_alarm_tn": 1756,
+      "lost_baseline_positive_images": 3,
+      "precision": 0.6139380530973452,
+      "recall": 0.74
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1097,
+      "fp": 643,
+      "fn": 403,
+      "image_alarm_tp": 603,
+      "image_alarm_fn": 18,
+      "no_fire_image_alarm_fp": 33,
+      "no_fire_image_alarm_tn": 1756,
+      "lost_baseline_positive_images": 3,
+      "precision": 0.6304597701149425,
+      "recall": 0.7313333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1121,
+      "fp": 774,
+      "fn": 379,
+      "image_alarm_tp": 601,
+      "image_alarm_fn": 20,
+      "no_fire_image_alarm_fp": 32,
+      "no_fire_image_alarm_tn": 1757,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.59155672823219,
+      "recall": 0.7473333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1108,
+      "fp": 694,
+      "fn": 392,
+      "image_alarm_tp": 601,
+      "image_alarm_fn": 20,
+      "no_fire_image_alarm_fp": 32,
+      "no_fire_image_alarm_tn": 1757,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6148723640399556,
+      "recall": 0.7386666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1095,
+      "fp": 640,
+      "fn": 405,
+      "image_alarm_tp": 601,
+      "image_alarm_fn": 20,
+      "no_fire_image_alarm_fp": 32,
+      "no_fire_image_alarm_tn": 1757,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6311239193083573,
+      "recall": 0.73
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1121,
+      "fp": 772,
+      "fn": 379,
+      "image_alarm_tp": 600,
+      "image_alarm_fn": 21,
+      "no_fire_image_alarm_fp": 32,
+      "no_fire_image_alarm_tn": 1757,
+      "lost_baseline_positive_images": 5,
+      "precision": 0.5921817221341785,
+      "recall": 0.7473333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1108,
+      "fp": 692,
+      "fn": 392,
+      "image_alarm_tp": 600,
+      "image_alarm_fn": 21,
+      "no_fire_image_alarm_fp": 32,
+      "no_fire_image_alarm_tn": 1757,
+      "lost_baseline_positive_images": 5,
+      "precision": 0.6155555555555555,
+      "recall": 0.7386666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.3,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1095,
+      "fp": 638,
+      "fn": 405,
+      "image_alarm_tp": 600,
+      "image_alarm_fn": 21,
+      "no_fire_image_alarm_fp": 32,
+      "no_fire_image_alarm_tn": 1757,
+      "lost_baseline_positive_images": 5,
+      "precision": 0.6318522792844777,
+      "recall": 0.73
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1047,
+      "fp": 614,
+      "fn": 453,
+      "image_alarm_tp": 595,
+      "image_alarm_fn": 26,
+      "no_fire_image_alarm_fp": 28,
+      "no_fire_image_alarm_tn": 1761,
+      "lost_baseline_positive_images": 9,
+      "precision": 0.6303431667670079,
+      "recall": 0.698
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1039,
+      "fp": 560,
+      "fn": 461,
+      "image_alarm_tp": 595,
+      "image_alarm_fn": 26,
+      "no_fire_image_alarm_fp": 28,
+      "no_fire_image_alarm_tn": 1761,
+      "lost_baseline_positive_images": 9,
+      "precision": 0.6497811131957474,
+      "recall": 0.6926666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1029,
+      "fp": 527,
+      "fn": 471,
+      "image_alarm_tp": 595,
+      "image_alarm_fn": 26,
+      "no_fire_image_alarm_fp": 28,
+      "no_fire_image_alarm_tn": 1761,
+      "lost_baseline_positive_images": 9,
+      "precision": 0.6613110539845758,
+      "recall": 0.686
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1047,
+      "fp": 613,
+      "fn": 453,
+      "image_alarm_tp": 595,
+      "image_alarm_fn": 26,
+      "no_fire_image_alarm_fp": 28,
+      "no_fire_image_alarm_tn": 1761,
+      "lost_baseline_positive_images": 9,
+      "precision": 0.630722891566265,
+      "recall": 0.698
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1039,
+      "fp": 559,
+      "fn": 461,
+      "image_alarm_tp": 595,
+      "image_alarm_fn": 26,
+      "no_fire_image_alarm_fp": 28,
+      "no_fire_image_alarm_tn": 1761,
+      "lost_baseline_positive_images": 9,
+      "precision": 0.6501877346683355,
+      "recall": 0.6926666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1029,
+      "fp": 526,
+      "fn": 471,
+      "image_alarm_tp": 595,
+      "image_alarm_fn": 26,
+      "no_fire_image_alarm_fp": 28,
+      "no_fire_image_alarm_tn": 1761,
+      "lost_baseline_positive_images": 9,
+      "precision": 0.6617363344051447,
+      "recall": 0.686
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1044,
+      "fp": 609,
+      "fn": 456,
+      "image_alarm_tp": 591,
+      "image_alarm_fn": 30,
+      "no_fire_image_alarm_fp": 26,
+      "no_fire_image_alarm_tn": 1763,
+      "lost_baseline_positive_images": 12,
+      "precision": 0.631578947368421,
+      "recall": 0.696
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1036,
+      "fp": 556,
+      "fn": 464,
+      "image_alarm_tp": 591,
+      "image_alarm_fn": 30,
+      "no_fire_image_alarm_fp": 26,
+      "no_fire_image_alarm_tn": 1763,
+      "lost_baseline_positive_images": 12,
+      "precision": 0.6507537688442211,
+      "recall": 0.6906666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1026,
+      "fp": 523,
+      "fn": 474,
+      "image_alarm_tp": 591,
+      "image_alarm_fn": 30,
+      "no_fire_image_alarm_fp": 26,
+      "no_fire_image_alarm_tn": 1763,
+      "lost_baseline_positive_images": 12,
+      "precision": 0.6623628147191737,
+      "recall": 0.684
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1044,
+      "fp": 607,
+      "fn": 456,
+      "image_alarm_tp": 591,
+      "image_alarm_fn": 30,
+      "no_fire_image_alarm_fp": 26,
+      "no_fire_image_alarm_tn": 1763,
+      "lost_baseline_positive_images": 12,
+      "precision": 0.6323440339188371,
+      "recall": 0.696
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1036,
+      "fp": 554,
+      "fn": 464,
+      "image_alarm_tp": 591,
+      "image_alarm_fn": 30,
+      "no_fire_image_alarm_fp": 26,
+      "no_fire_image_alarm_tn": 1763,
+      "lost_baseline_positive_images": 12,
+      "precision": 0.6515723270440251,
+      "recall": 0.6906666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1026,
+      "fp": 521,
+      "fn": 474,
+      "image_alarm_tp": 591,
+      "image_alarm_fn": 30,
+      "no_fire_image_alarm_fp": 26,
+      "no_fire_image_alarm_tn": 1763,
+      "lost_baseline_positive_images": 12,
+      "precision": 0.6632191338073691,
+      "recall": 0.684
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1040,
+      "fp": 600,
+      "fn": 460,
+      "image_alarm_tp": 585,
+      "image_alarm_fn": 36,
+      "no_fire_image_alarm_fp": 24,
+      "no_fire_image_alarm_tn": 1765,
+      "lost_baseline_positive_images": 17,
+      "precision": 0.6341463414634146,
+      "recall": 0.6933333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1032,
+      "fp": 547,
+      "fn": 468,
+      "image_alarm_tp": 585,
+      "image_alarm_fn": 36,
+      "no_fire_image_alarm_fp": 24,
+      "no_fire_image_alarm_tn": 1765,
+      "lost_baseline_positive_images": 17,
+      "precision": 0.6535782140595313,
+      "recall": 0.688
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1022,
+      "fp": 515,
+      "fn": 478,
+      "image_alarm_tp": 585,
+      "image_alarm_fn": 36,
+      "no_fire_image_alarm_fp": 24,
+      "no_fire_image_alarm_tn": 1765,
+      "lost_baseline_positive_images": 17,
+      "precision": 0.6649316851008458,
+      "recall": 0.6813333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1040,
+      "fp": 600,
+      "fn": 460,
+      "image_alarm_tp": 585,
+      "image_alarm_fn": 36,
+      "no_fire_image_alarm_fp": 24,
+      "no_fire_image_alarm_tn": 1765,
+      "lost_baseline_positive_images": 17,
+      "precision": 0.6341463414634146,
+      "recall": 0.6933333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1032,
+      "fp": 547,
+      "fn": 468,
+      "image_alarm_tp": 585,
+      "image_alarm_fn": 36,
+      "no_fire_image_alarm_fp": 24,
+      "no_fire_image_alarm_tn": 1765,
+      "lost_baseline_positive_images": 17,
+      "precision": 0.6535782140595313,
+      "recall": 0.688
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1022,
+      "fp": 515,
+      "fn": 478,
+      "image_alarm_tp": 585,
+      "image_alarm_fn": 36,
+      "no_fire_image_alarm_fp": 24,
+      "no_fire_image_alarm_tn": 1765,
+      "lost_baseline_positive_images": 17,
+      "precision": 0.6649316851008458,
+      "recall": 0.6813333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1093,
+      "fp": 708,
+      "fn": 407,
+      "image_alarm_tp": 597,
+      "image_alarm_fn": 24,
+      "no_fire_image_alarm_fp": 30,
+      "no_fire_image_alarm_tn": 1759,
+      "lost_baseline_positive_images": 8,
+      "precision": 0.6068850638534148,
+      "recall": 0.7286666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1081,
+      "fp": 638,
+      "fn": 419,
+      "image_alarm_tp": 597,
+      "image_alarm_fn": 24,
+      "no_fire_image_alarm_fp": 30,
+      "no_fire_image_alarm_tn": 1759,
+      "lost_baseline_positive_images": 8,
+      "precision": 0.6288539848749273,
+      "recall": 0.7206666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1069,
+      "fp": 594,
+      "fn": 431,
+      "image_alarm_tp": 597,
+      "image_alarm_fn": 24,
+      "no_fire_image_alarm_fp": 30,
+      "no_fire_image_alarm_tn": 1759,
+      "lost_baseline_positive_images": 8,
+      "precision": 0.6428141912206855,
+      "recall": 0.7126666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1093,
+      "fp": 706,
+      "fn": 407,
+      "image_alarm_tp": 597,
+      "image_alarm_fn": 24,
+      "no_fire_image_alarm_fp": 30,
+      "no_fire_image_alarm_tn": 1759,
+      "lost_baseline_positive_images": 8,
+      "precision": 0.6075597554196775,
+      "recall": 0.7286666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1081,
+      "fp": 636,
+      "fn": 419,
+      "image_alarm_tp": 597,
+      "image_alarm_fn": 24,
+      "no_fire_image_alarm_fp": 30,
+      "no_fire_image_alarm_tn": 1759,
+      "lost_baseline_positive_images": 8,
+      "precision": 0.6295864880605707,
+      "recall": 0.7206666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1069,
+      "fp": 592,
+      "fn": 431,
+      "image_alarm_tp": 597,
+      "image_alarm_fn": 24,
+      "no_fire_image_alarm_fp": 30,
+      "no_fire_image_alarm_tn": 1759,
+      "lost_baseline_positive_images": 8,
+      "precision": 0.6435881998795906,
+      "recall": 0.7126666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1090,
+      "fp": 702,
+      "fn": 410,
+      "image_alarm_tp": 593,
+      "image_alarm_fn": 28,
+      "no_fire_image_alarm_fp": 28,
+      "no_fire_image_alarm_tn": 1761,
+      "lost_baseline_positive_images": 11,
+      "precision": 0.6082589285714286,
+      "recall": 0.7266666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1078,
+      "fp": 633,
+      "fn": 422,
+      "image_alarm_tp": 593,
+      "image_alarm_fn": 28,
+      "no_fire_image_alarm_fp": 28,
+      "no_fire_image_alarm_tn": 1761,
+      "lost_baseline_positive_images": 11,
+      "precision": 0.6300409117475161,
+      "recall": 0.7186666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1066,
+      "fp": 589,
+      "fn": 434,
+      "image_alarm_tp": 593,
+      "image_alarm_fn": 28,
+      "no_fire_image_alarm_fp": 28,
+      "no_fire_image_alarm_tn": 1761,
+      "lost_baseline_positive_images": 11,
+      "precision": 0.6441087613293052,
+      "recall": 0.7106666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1090,
+      "fp": 699,
+      "fn": 410,
+      "image_alarm_tp": 593,
+      "image_alarm_fn": 28,
+      "no_fire_image_alarm_fp": 28,
+      "no_fire_image_alarm_tn": 1761,
+      "lost_baseline_positive_images": 11,
+      "precision": 0.6092789267747345,
+      "recall": 0.7266666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1078,
+      "fp": 630,
+      "fn": 422,
+      "image_alarm_tp": 593,
+      "image_alarm_fn": 28,
+      "no_fire_image_alarm_fp": 28,
+      "no_fire_image_alarm_tn": 1761,
+      "lost_baseline_positive_images": 11,
+      "precision": 0.6311475409836066,
+      "recall": 0.7186666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1066,
+      "fp": 586,
+      "fn": 434,
+      "image_alarm_tp": 593,
+      "image_alarm_fn": 28,
+      "no_fire_image_alarm_fp": 28,
+      "no_fire_image_alarm_tn": 1761,
+      "lost_baseline_positive_images": 11,
+      "precision": 0.6452784503631961,
+      "recall": 0.7106666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1085,
+      "fp": 692,
+      "fn": 415,
+      "image_alarm_tp": 587,
+      "image_alarm_fn": 34,
+      "no_fire_image_alarm_fp": 26,
+      "no_fire_image_alarm_tn": 1763,
+      "lost_baseline_positive_images": 16,
+      "precision": 0.610579628587507,
+      "recall": 0.7233333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1073,
+      "fp": 623,
+      "fn": 427,
+      "image_alarm_tp": 587,
+      "image_alarm_fn": 34,
+      "no_fire_image_alarm_fp": 26,
+      "no_fire_image_alarm_tn": 1763,
+      "lost_baseline_positive_images": 16,
+      "precision": 0.6326650943396226,
+      "recall": 0.7153333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1061,
+      "fp": 580,
+      "fn": 439,
+      "image_alarm_tp": 587,
+      "image_alarm_fn": 34,
+      "no_fire_image_alarm_fp": 26,
+      "no_fire_image_alarm_tn": 1763,
+      "lost_baseline_positive_images": 16,
+      "precision": 0.6465569774527727,
+      "recall": 0.7073333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1085,
+      "fp": 691,
+      "fn": 415,
+      "image_alarm_tp": 587,
+      "image_alarm_fn": 34,
+      "no_fire_image_alarm_fp": 26,
+      "no_fire_image_alarm_tn": 1763,
+      "lost_baseline_positive_images": 16,
+      "precision": 0.6109234234234234,
+      "recall": 0.7233333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1073,
+      "fp": 622,
+      "fn": 427,
+      "image_alarm_tp": 587,
+      "image_alarm_fn": 34,
+      "no_fire_image_alarm_fp": 26,
+      "no_fire_image_alarm_tn": 1763,
+      "lost_baseline_positive_images": 16,
+      "precision": 0.6330383480825958,
+      "recall": 0.7153333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1061,
+      "fp": 579,
+      "fn": 439,
+      "image_alarm_tp": 587,
+      "image_alarm_fn": 34,
+      "no_fire_image_alarm_fp": 26,
+      "no_fire_image_alarm_tn": 1763,
+      "lost_baseline_positive_images": 16,
+      "precision": 0.6469512195121951,
+      "recall": 0.7073333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1118,
+      "fp": 775,
+      "fn": 382,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 31,
+      "no_fire_image_alarm_tn": 1758,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.5905969360802958,
+      "recall": 0.7453333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1105,
+      "fp": 695,
+      "fn": 395,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 31,
+      "no_fire_image_alarm_tn": 1758,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6138888888888889,
+      "recall": 0.7366666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1092,
+      "fp": 640,
+      "fn": 408,
+      "image_alarm_tp": 602,
+      "image_alarm_fn": 19,
+      "no_fire_image_alarm_fp": 31,
+      "no_fire_image_alarm_tn": 1758,
+      "lost_baseline_positive_images": 4,
+      "precision": 0.6304849884526559,
+      "recall": 0.728
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1118,
+      "fp": 770,
+      "fn": 382,
+      "image_alarm_tp": 600,
+      "image_alarm_fn": 21,
+      "no_fire_image_alarm_fp": 31,
+      "no_fire_image_alarm_tn": 1758,
+      "lost_baseline_positive_images": 6,
+      "precision": 0.5921610169491526,
+      "recall": 0.7453333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1105,
+      "fp": 690,
+      "fn": 395,
+      "image_alarm_tp": 600,
+      "image_alarm_fn": 21,
+      "no_fire_image_alarm_fp": 31,
+      "no_fire_image_alarm_tn": 1758,
+      "lost_baseline_positive_images": 6,
+      "precision": 0.6155988857938719,
+      "recall": 0.7366666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1092,
+      "fp": 635,
+      "fn": 408,
+      "image_alarm_tp": 600,
+      "image_alarm_fn": 21,
+      "no_fire_image_alarm_fp": 31,
+      "no_fire_image_alarm_tn": 1758,
+      "lost_baseline_positive_images": 6,
+      "precision": 0.6323103647944412,
+      "recall": 0.728
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1114,
+      "fp": 765,
+      "fn": 386,
+      "image_alarm_tp": 598,
+      "image_alarm_fn": 23,
+      "no_fire_image_alarm_fp": 28,
+      "no_fire_image_alarm_tn": 1761,
+      "lost_baseline_positive_images": 7,
+      "precision": 0.592868547099521,
+      "recall": 0.7426666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1101,
+      "fp": 687,
+      "fn": 399,
+      "image_alarm_tp": 598,
+      "image_alarm_fn": 23,
+      "no_fire_image_alarm_fp": 28,
+      "no_fire_image_alarm_tn": 1761,
+      "lost_baseline_positive_images": 7,
+      "precision": 0.6157718120805369,
+      "recall": 0.734
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1088,
+      "fp": 632,
+      "fn": 412,
+      "image_alarm_tp": 598,
+      "image_alarm_fn": 23,
+      "no_fire_image_alarm_fp": 28,
+      "no_fire_image_alarm_tn": 1761,
+      "lost_baseline_positive_images": 7,
+      "precision": 0.6325581395348837,
+      "recall": 0.7253333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1114,
+      "fp": 759,
+      "fn": 386,
+      "image_alarm_tp": 596,
+      "image_alarm_fn": 25,
+      "no_fire_image_alarm_fp": 28,
+      "no_fire_image_alarm_tn": 1761,
+      "lost_baseline_positive_images": 9,
+      "precision": 0.5947677522690871,
+      "recall": 0.7426666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1101,
+      "fp": 681,
+      "fn": 399,
+      "image_alarm_tp": 596,
+      "image_alarm_fn": 25,
+      "no_fire_image_alarm_fp": 28,
+      "no_fire_image_alarm_tn": 1761,
+      "lost_baseline_positive_images": 9,
+      "precision": 0.6178451178451179,
+      "recall": 0.734
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1088,
+      "fp": 626,
+      "fn": 412,
+      "image_alarm_tp": 596,
+      "image_alarm_fn": 25,
+      "no_fire_image_alarm_fp": 28,
+      "no_fire_image_alarm_tn": 1761,
+      "lost_baseline_positive_images": 9,
+      "precision": 0.6347724620770129,
+      "recall": 0.7253333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1109,
+      "fp": 753,
+      "fn": 391,
+      "image_alarm_tp": 591,
+      "image_alarm_fn": 30,
+      "no_fire_image_alarm_fp": 26,
+      "no_fire_image_alarm_tn": 1763,
+      "lost_baseline_positive_images": 13,
+      "precision": 0.5955961331901182,
+      "recall": 0.7393333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1096,
+      "fp": 675,
+      "fn": 404,
+      "image_alarm_tp": 591,
+      "image_alarm_fn": 30,
+      "no_fire_image_alarm_fp": 26,
+      "no_fire_image_alarm_tn": 1763,
+      "lost_baseline_positive_images": 13,
+      "precision": 0.6188594014680971,
+      "recall": 0.7306666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1083,
+      "fp": 621,
+      "fn": 417,
+      "image_alarm_tp": 591,
+      "image_alarm_fn": 30,
+      "no_fire_image_alarm_fp": 26,
+      "no_fire_image_alarm_tn": 1763,
+      "lost_baseline_positive_images": 13,
+      "precision": 0.6355633802816901,
+      "recall": 0.722
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1109,
+      "fp": 751,
+      "fn": 391,
+      "image_alarm_tp": 590,
+      "image_alarm_fn": 31,
+      "no_fire_image_alarm_fp": 26,
+      "no_fire_image_alarm_tn": 1763,
+      "lost_baseline_positive_images": 14,
+      "precision": 0.5962365591397849,
+      "recall": 0.7393333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1096,
+      "fp": 673,
+      "fn": 404,
+      "image_alarm_tp": 590,
+      "image_alarm_fn": 31,
+      "no_fire_image_alarm_fp": 26,
+      "no_fire_image_alarm_tn": 1763,
+      "lost_baseline_positive_images": 14,
+      "precision": 0.6195590729225551,
+      "recall": 0.7306666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.35,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1083,
+      "fp": 619,
+      "fn": 417,
+      "image_alarm_tp": 590,
+      "image_alarm_fn": 31,
+      "no_fire_image_alarm_fp": 26,
+      "no_fire_image_alarm_tn": 1763,
+      "lost_baseline_positive_images": 14,
+      "precision": 0.636310223266745,
+      "recall": 0.722
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1042,
+      "fp": 608,
+      "fn": 458,
+      "image_alarm_tp": 594,
+      "image_alarm_fn": 27,
+      "no_fire_image_alarm_fp": 27,
+      "no_fire_image_alarm_tn": 1762,
+      "lost_baseline_positive_images": 10,
+      "precision": 0.6315151515151515,
+      "recall": 0.6946666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1034,
+      "fp": 554,
+      "fn": 466,
+      "image_alarm_tp": 594,
+      "image_alarm_fn": 27,
+      "no_fire_image_alarm_fp": 27,
+      "no_fire_image_alarm_tn": 1762,
+      "lost_baseline_positive_images": 10,
+      "precision": 0.6511335012594458,
+      "recall": 0.6893333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1024,
+      "fp": 522,
+      "fn": 476,
+      "image_alarm_tp": 594,
+      "image_alarm_fn": 27,
+      "no_fire_image_alarm_fp": 27,
+      "no_fire_image_alarm_tn": 1762,
+      "lost_baseline_positive_images": 10,
+      "precision": 0.6623544631306598,
+      "recall": 0.6826666666666666
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1039,
+      "fp": 603,
+      "fn": 461,
+      "image_alarm_tp": 593,
+      "image_alarm_fn": 28,
+      "no_fire_image_alarm_fp": 26,
+      "no_fire_image_alarm_tn": 1763,
+      "lost_baseline_positive_images": 11,
+      "precision": 0.6327649208282582,
+      "recall": 0.6926666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1032,
+      "fp": 549,
+      "fn": 468,
+      "image_alarm_tp": 593,
+      "image_alarm_fn": 28,
+      "no_fire_image_alarm_fp": 26,
+      "no_fire_image_alarm_tn": 1763,
+      "lost_baseline_positive_images": 11,
+      "precision": 0.6527514231499051,
+      "recall": 0.688
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1022,
+      "fp": 517,
+      "fn": 478,
+      "image_alarm_tp": 593,
+      "image_alarm_fn": 28,
+      "no_fire_image_alarm_fp": 26,
+      "no_fire_image_alarm_tn": 1763,
+      "lost_baseline_positive_images": 11,
+      "precision": 0.6640675763482781,
+      "recall": 0.6813333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1038,
+      "fp": 599,
+      "fn": 462,
+      "image_alarm_tp": 589,
+      "image_alarm_fn": 32,
+      "no_fire_image_alarm_fp": 25,
+      "no_fire_image_alarm_tn": 1764,
+      "lost_baseline_positive_images": 14,
+      "precision": 0.6340867440439829,
+      "recall": 0.692
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1030,
+      "fp": 546,
+      "fn": 470,
+      "image_alarm_tp": 589,
+      "image_alarm_fn": 32,
+      "no_fire_image_alarm_fp": 25,
+      "no_fire_image_alarm_tn": 1764,
+      "lost_baseline_positive_images": 14,
+      "precision": 0.6535532994923858,
+      "recall": 0.6866666666666666
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1020,
+      "fp": 514,
+      "fn": 480,
+      "image_alarm_tp": 589,
+      "image_alarm_fn": 32,
+      "no_fire_image_alarm_fp": 25,
+      "no_fire_image_alarm_tn": 1764,
+      "lost_baseline_positive_images": 14,
+      "precision": 0.6649282920469362,
+      "recall": 0.68
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1035,
+      "fp": 594,
+      "fn": 465,
+      "image_alarm_tp": 588,
+      "image_alarm_fn": 33,
+      "no_fire_image_alarm_fp": 24,
+      "no_fire_image_alarm_tn": 1765,
+      "lost_baseline_positive_images": 15,
+      "precision": 0.6353591160220995,
+      "recall": 0.69
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1028,
+      "fp": 541,
+      "fn": 472,
+      "image_alarm_tp": 588,
+      "image_alarm_fn": 33,
+      "no_fire_image_alarm_fp": 24,
+      "no_fire_image_alarm_tn": 1765,
+      "lost_baseline_positive_images": 15,
+      "precision": 0.6551943913320586,
+      "recall": 0.6853333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1018,
+      "fp": 509,
+      "fn": 482,
+      "image_alarm_tp": 588,
+      "image_alarm_fn": 33,
+      "no_fire_image_alarm_fp": 24,
+      "no_fire_image_alarm_tn": 1765,
+      "lost_baseline_positive_images": 15,
+      "precision": 0.6666666666666666,
+      "recall": 0.6786666666666666
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1026,
+      "fp": 581,
+      "fn": 474,
+      "image_alarm_tp": 577,
+      "image_alarm_fn": 44,
+      "no_fire_image_alarm_fp": 22,
+      "no_fire_image_alarm_tn": 1767,
+      "lost_baseline_positive_images": 25,
+      "precision": 0.6384567517112633,
+      "recall": 0.684
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1019,
+      "fp": 528,
+      "fn": 481,
+      "image_alarm_tp": 577,
+      "image_alarm_fn": 44,
+      "no_fire_image_alarm_fp": 22,
+      "no_fire_image_alarm_tn": 1767,
+      "lost_baseline_positive_images": 25,
+      "precision": 0.658694246929541,
+      "recall": 0.6793333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1009,
+      "fp": 498,
+      "fn": 491,
+      "image_alarm_tp": 577,
+      "image_alarm_fn": 44,
+      "no_fire_image_alarm_fp": 22,
+      "no_fire_image_alarm_tn": 1767,
+      "lost_baseline_positive_images": 25,
+      "precision": 0.6695421366954214,
+      "recall": 0.6726666666666666
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1025,
+      "fp": 579,
+      "fn": 475,
+      "image_alarm_tp": 576,
+      "image_alarm_fn": 45,
+      "no_fire_image_alarm_fp": 21,
+      "no_fire_image_alarm_tn": 1768,
+      "lost_baseline_positive_images": 26,
+      "precision": 0.6390274314214464,
+      "recall": 0.6833333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1018,
+      "fp": 526,
+      "fn": 482,
+      "image_alarm_tp": 576,
+      "image_alarm_fn": 45,
+      "no_fire_image_alarm_fp": 21,
+      "no_fire_image_alarm_tn": 1768,
+      "lost_baseline_positive_images": 26,
+      "precision": 0.6593264248704663,
+      "recall": 0.6786666666666666
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.25,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1008,
+      "fp": 496,
+      "fn": 492,
+      "image_alarm_tp": 576,
+      "image_alarm_fn": 45,
+      "no_fire_image_alarm_fp": 21,
+      "no_fire_image_alarm_tn": 1768,
+      "lost_baseline_positive_images": 26,
+      "precision": 0.6702127659574468,
+      "recall": 0.672
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1088,
+      "fp": 702,
+      "fn": 412,
+      "image_alarm_tp": 596,
+      "image_alarm_fn": 25,
+      "no_fire_image_alarm_fp": 29,
+      "no_fire_image_alarm_tn": 1760,
+      "lost_baseline_positive_images": 9,
+      "precision": 0.6078212290502794,
+      "recall": 0.7253333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1076,
+      "fp": 632,
+      "fn": 424,
+      "image_alarm_tp": 596,
+      "image_alarm_fn": 25,
+      "no_fire_image_alarm_fp": 29,
+      "no_fire_image_alarm_tn": 1760,
+      "lost_baseline_positive_images": 9,
+      "precision": 0.629976580796253,
+      "recall": 0.7173333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1064,
+      "fp": 589,
+      "fn": 436,
+      "image_alarm_tp": 596,
+      "image_alarm_fn": 25,
+      "no_fire_image_alarm_fp": 29,
+      "no_fire_image_alarm_tn": 1760,
+      "lost_baseline_positive_images": 9,
+      "precision": 0.6436781609195402,
+      "recall": 0.7093333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1085,
+      "fp": 696,
+      "fn": 415,
+      "image_alarm_tp": 595,
+      "image_alarm_fn": 26,
+      "no_fire_image_alarm_fp": 28,
+      "no_fire_image_alarm_tn": 1761,
+      "lost_baseline_positive_images": 10,
+      "precision": 0.6092083099382369,
+      "recall": 0.7233333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1074,
+      "fp": 626,
+      "fn": 426,
+      "image_alarm_tp": 595,
+      "image_alarm_fn": 26,
+      "no_fire_image_alarm_fp": 28,
+      "no_fire_image_alarm_tn": 1761,
+      "lost_baseline_positive_images": 10,
+      "precision": 0.6317647058823529,
+      "recall": 0.716
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1062,
+      "fp": 583,
+      "fn": 438,
+      "image_alarm_tp": 595,
+      "image_alarm_fn": 26,
+      "no_fire_image_alarm_fp": 28,
+      "no_fire_image_alarm_tn": 1761,
+      "lost_baseline_positive_images": 10,
+      "precision": 0.6455927051671733,
+      "recall": 0.708
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1083,
+      "fp": 692,
+      "fn": 417,
+      "image_alarm_tp": 591,
+      "image_alarm_fn": 30,
+      "no_fire_image_alarm_fp": 27,
+      "no_fire_image_alarm_tn": 1762,
+      "lost_baseline_positive_images": 13,
+      "precision": 0.6101408450704225,
+      "recall": 0.722
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1071,
+      "fp": 623,
+      "fn": 429,
+      "image_alarm_tp": 591,
+      "image_alarm_fn": 30,
+      "no_fire_image_alarm_fp": 27,
+      "no_fire_image_alarm_tn": 1762,
+      "lost_baseline_positive_images": 13,
+      "precision": 0.6322314049586777,
+      "recall": 0.714
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1059,
+      "fp": 580,
+      "fn": 441,
+      "image_alarm_tp": 591,
+      "image_alarm_fn": 30,
+      "no_fire_image_alarm_fp": 27,
+      "no_fire_image_alarm_tn": 1762,
+      "lost_baseline_positive_images": 13,
+      "precision": 0.6461256863941428,
+      "recall": 0.706
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1080,
+      "fp": 686,
+      "fn": 420,
+      "image_alarm_tp": 590,
+      "image_alarm_fn": 31,
+      "no_fire_image_alarm_fp": 26,
+      "no_fire_image_alarm_tn": 1763,
+      "lost_baseline_positive_images": 14,
+      "precision": 0.6115515288788222,
+      "recall": 0.72
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1069,
+      "fp": 617,
+      "fn": 431,
+      "image_alarm_tp": 590,
+      "image_alarm_fn": 31,
+      "no_fire_image_alarm_fp": 26,
+      "no_fire_image_alarm_tn": 1763,
+      "lost_baseline_positive_images": 14,
+      "precision": 0.6340450771055753,
+      "recall": 0.7126666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1057,
+      "fp": 574,
+      "fn": 443,
+      "image_alarm_tp": 590,
+      "image_alarm_fn": 31,
+      "no_fire_image_alarm_fp": 26,
+      "no_fire_image_alarm_tn": 1763,
+      "lost_baseline_positive_images": 14,
+      "precision": 0.648068669527897,
+      "recall": 0.7046666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1070,
+      "fp": 673,
+      "fn": 430,
+      "image_alarm_tp": 579,
+      "image_alarm_fn": 42,
+      "no_fire_image_alarm_fp": 24,
+      "no_fire_image_alarm_tn": 1765,
+      "lost_baseline_positive_images": 24,
+      "precision": 0.6138841078600115,
+      "recall": 0.7133333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1059,
+      "fp": 604,
+      "fn": 441,
+      "image_alarm_tp": 579,
+      "image_alarm_fn": 42,
+      "no_fire_image_alarm_fp": 24,
+      "no_fire_image_alarm_tn": 1765,
+      "lost_baseline_positive_images": 24,
+      "precision": 0.6368009621166566,
+      "recall": 0.706
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1047,
+      "fp": 563,
+      "fn": 453,
+      "image_alarm_tp": 579,
+      "image_alarm_fn": 42,
+      "no_fire_image_alarm_fp": 24,
+      "no_fire_image_alarm_tn": 1765,
+      "lost_baseline_positive_images": 24,
+      "precision": 0.6503105590062112,
+      "recall": 0.698
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1069,
+      "fp": 670,
+      "fn": 431,
+      "image_alarm_tp": 578,
+      "image_alarm_fn": 43,
+      "no_fire_image_alarm_fp": 23,
+      "no_fire_image_alarm_tn": 1766,
+      "lost_baseline_positive_images": 25,
+      "precision": 0.6147211040828062,
+      "recall": 0.7126666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1058,
+      "fp": 601,
+      "fn": 442,
+      "image_alarm_tp": 578,
+      "image_alarm_fn": 43,
+      "no_fire_image_alarm_fp": 23,
+      "no_fire_image_alarm_tn": 1766,
+      "lost_baseline_positive_images": 25,
+      "precision": 0.6377335744424352,
+      "recall": 0.7053333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.22,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1046,
+      "fp": 560,
+      "fn": 454,
+      "image_alarm_tp": 578,
+      "image_alarm_fn": 43,
+      "no_fire_image_alarm_fp": 23,
+      "no_fire_image_alarm_tn": 1766,
+      "lost_baseline_positive_images": 25,
+      "precision": 0.651307596513076,
+      "recall": 0.6973333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1113,
+      "fp": 768,
+      "fn": 387,
+      "image_alarm_tp": 601,
+      "image_alarm_fn": 20,
+      "no_fire_image_alarm_fp": 30,
+      "no_fire_image_alarm_tn": 1759,
+      "lost_baseline_positive_images": 5,
+      "precision": 0.5917065390749602,
+      "recall": 0.742
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1100,
+      "fp": 688,
+      "fn": 400,
+      "image_alarm_tp": 601,
+      "image_alarm_fn": 20,
+      "no_fire_image_alarm_fp": 30,
+      "no_fire_image_alarm_tn": 1759,
+      "lost_baseline_positive_images": 5,
+      "precision": 0.6152125279642058,
+      "recall": 0.7333333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1087,
+      "fp": 634,
+      "fn": 413,
+      "image_alarm_tp": 601,
+      "image_alarm_fn": 20,
+      "no_fire_image_alarm_fp": 30,
+      "no_fire_image_alarm_tn": 1759,
+      "lost_baseline_positive_images": 5,
+      "precision": 0.631609529343405,
+      "recall": 0.7246666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1109,
+      "fp": 759,
+      "fn": 391,
+      "image_alarm_tp": 598,
+      "image_alarm_fn": 23,
+      "no_fire_image_alarm_fp": 29,
+      "no_fire_image_alarm_tn": 1760,
+      "lost_baseline_positive_images": 8,
+      "precision": 0.5936830835117773,
+      "recall": 0.7393333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1097,
+      "fp": 679,
+      "fn": 403,
+      "image_alarm_tp": 598,
+      "image_alarm_fn": 23,
+      "no_fire_image_alarm_fp": 29,
+      "no_fire_image_alarm_tn": 1760,
+      "lost_baseline_positive_images": 8,
+      "precision": 0.6176801801801802,
+      "recall": 0.7313333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.3,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1084,
+      "fp": 625,
+      "fn": 416,
+      "image_alarm_tp": 598,
+      "image_alarm_fn": 23,
+      "no_fire_image_alarm_fp": 29,
+      "no_fire_image_alarm_tn": 1760,
+      "lost_baseline_positive_images": 8,
+      "precision": 0.6342890579286132,
+      "recall": 0.7226666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1107,
+      "fp": 754,
+      "fn": 393,
+      "image_alarm_tp": 596,
+      "image_alarm_fn": 25,
+      "no_fire_image_alarm_fp": 27,
+      "no_fire_image_alarm_tn": 1762,
+      "lost_baseline_positive_images": 9,
+      "precision": 0.5948414830736163,
+      "recall": 0.738
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1094,
+      "fp": 676,
+      "fn": 406,
+      "image_alarm_tp": 596,
+      "image_alarm_fn": 25,
+      "no_fire_image_alarm_fp": 27,
+      "no_fire_image_alarm_tn": 1762,
+      "lost_baseline_positive_images": 9,
+      "precision": 0.6180790960451977,
+      "recall": 0.7293333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1081,
+      "fp": 622,
+      "fn": 419,
+      "image_alarm_tp": 596,
+      "image_alarm_fn": 25,
+      "no_fire_image_alarm_fp": 27,
+      "no_fire_image_alarm_tn": 1762,
+      "lost_baseline_positive_images": 9,
+      "precision": 0.634762184380505,
+      "recall": 0.7206666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1103,
+      "fp": 745,
+      "fn": 397,
+      "image_alarm_tp": 593,
+      "image_alarm_fn": 28,
+      "no_fire_image_alarm_fp": 26,
+      "no_fire_image_alarm_tn": 1763,
+      "lost_baseline_positive_images": 12,
+      "precision": 0.5968614718614719,
+      "recall": 0.7353333333333333
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1091,
+      "fp": 667,
+      "fn": 409,
+      "image_alarm_tp": 593,
+      "image_alarm_fn": 28,
+      "no_fire_image_alarm_fp": 26,
+      "no_fire_image_alarm_tn": 1763,
+      "lost_baseline_positive_images": 12,
+      "precision": 0.6205915813424346,
+      "recall": 0.7273333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.5,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1078,
+      "fp": 613,
+      "fn": 422,
+      "image_alarm_tp": 593,
+      "image_alarm_fn": 28,
+      "no_fire_image_alarm_fp": 26,
+      "no_fire_image_alarm_tn": 1763,
+      "lost_baseline_positive_images": 12,
+      "precision": 0.6374926079243052,
+      "recall": 0.7186666666666667
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1092,
+      "fp": 733,
+      "fn": 408,
+      "image_alarm_tp": 583,
+      "image_alarm_fn": 38,
+      "no_fire_image_alarm_fp": 24,
+      "no_fire_image_alarm_tn": 1765,
+      "lost_baseline_positive_images": 21,
+      "precision": 0.5983561643835617,
+      "recall": 0.728
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1080,
+      "fp": 655,
+      "fn": 420,
+      "image_alarm_tp": 583,
+      "image_alarm_fn": 38,
+      "no_fire_image_alarm_fp": 24,
+      "no_fire_image_alarm_tn": 1765,
+      "lost_baseline_positive_images": 21,
+      "precision": 0.622478386167147,
+      "recall": 0.72
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.2,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1068,
+      "fp": 603,
+      "fn": 432,
+      "image_alarm_tp": 583,
+      "image_alarm_fn": 38,
+      "no_fire_image_alarm_fp": 24,
+      "no_fire_image_alarm_tn": 1765,
+      "lost_baseline_positive_images": 21,
+      "precision": 0.6391382405745063,
+      "recall": 0.712
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.65,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1091,
+      "fp": 729,
+      "fn": 409,
+      "image_alarm_tp": 581,
+      "image_alarm_fn": 40,
+      "no_fire_image_alarm_fp": 23,
+      "no_fire_image_alarm_tn": 1766,
+      "lost_baseline_positive_images": 23,
+      "precision": 0.5994505494505494,
+      "recall": 0.7273333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.55,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1079,
+      "fp": 651,
+      "fn": 421,
+      "image_alarm_tp": 581,
+      "image_alarm_fn": 40,
+      "no_fire_image_alarm_fp": 23,
+      "no_fire_image_alarm_tn": 1766,
+      "lost_baseline_positive_images": 23,
+      "precision": 0.6236994219653179,
+      "recall": 0.7193333333333334
+    },
+    "guard_pass": false
+  },
+  {
+    "policy": {
+      "strong_conf": 0.4,
+      "weak_conf": 0.2,
+      "weak_support": "fire_or_smoke",
+      "support_radius": 0.4,
+      "support_smoke_conf": 0.7,
+      "support_smoke_coverage": 0.5,
+      "duplicate_iou": 0.45,
+      "smoke_conf": 0.25
+    },
+    "calibration": {
+      "tp": 1067,
+      "fp": 599,
+      "fn": 433,
+      "image_alarm_tp": 581,
+      "image_alarm_fn": 40,
+      "no_fire_image_alarm_fp": 23,
+      "no_fire_image_alarm_tn": 1766,
+      "lost_baseline_positive_images": 23,
+      "precision": 0.6404561824729892,
+      "recall": 0.7113333333333334
+    },
+    "guard_pass": false
+  }
+]

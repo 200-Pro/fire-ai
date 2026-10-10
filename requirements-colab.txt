@@ -1,0 +1,2 @@
+# Keep the existing Colab CUDA-enabled torch/torchvision installation.
+ultralytics==8.4.143

@@ -1,0 +1,15 @@
+{
+  "state": "no_safe_improvement",
+  "baseline": {
+    "tp": 1515,
+    "fp": 870,
+    "fn": 639,
+    "image_alarm_tp": 855,
+    "image_alarm_fn": 33,
+    "no_fire_image_alarm_fp": 34,
+    "no_fire_image_alarm_tn": 2523,
+    "lost_baseline_positive_images": 0,
+    "precision": 0.6352201257861635,
+    "recall": 0.7033426183844012
+  }
+}
